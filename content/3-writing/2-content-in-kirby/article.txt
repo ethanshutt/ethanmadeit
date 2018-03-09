@@ -38,3 +38,7 @@ It is not only handier than typing “`<a href="mailto: …`”, but also encode
 - (link: https://getkirby.com/docs/content/text text: Formatting text) (Kirby Documentation)
 - (link: https://getkirby.com/docs/cookbook/blog text: Creating a Kirby-powered blog) (Kirby Cookbook)
 - (link: https://getkirby.com/docs/developer-guide/kirbytext/tags text: How to create custom Kirbytags) (Kirby Documentation)
+
+----
+
+Intro: In Kirby, content is stored within the `/content` directory, where every page is a folder. Pages can be nested, so every of those pages/folders may also contain subfolders.

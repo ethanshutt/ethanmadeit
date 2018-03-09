@@ -2,8 +2,22 @@ Title: About
 
 ----
 
-Intro: This page demonstrates how you can utilize subpages to store content, like our team members shown below. This approach is especially useful when you have to handle a large number of datasets, many different kinds of data (like page sections) or very complex data with a lot of media files or fields.
+Intro: I’m a designer, learner, problem-solver, and team-player.
 
 ----
 
-Text: The approach of using subpages for storing content sections of a page can also be very useful for creating a (link: https://getkirby.com/docs/cookbook/one-pager text: one-page) website, featuring very different kinds of content.
+Text: 
+
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nesciunt, sequi distinctio, facilis in totam odit culpa, perferendis nostrum similique aperiam officiis voluptates ullam debitis facere! Numquam voluptatem sapiente ipsa provident architecto voluptatum quos consequuntur fugiat earum nihil veritatis dicta corporis, cum beatae inventore quas delectus alias voluptate debitis a culpa minima quis ad iste. At voluptates, fuga suscipit veniam magni blanditiis neque rem. Saepe, id iste? Itaque sed eum ipsam veritatis nobis consectetur eveniet. Ab illo eaque officiis natus quidem porro maxime, nisi amet veniam inventore dolorum aliquid minima incidunt cumque laudantium repellat sapiente, deleniti harum placeat rerum quaerat iure molestiae vel. Modi ullam fugiat fugit numquam facilis, nihil at veniam possimus consequatur voluptates eaque excepturi necessitatibus distinctio ipsa incidunt, ipsum asperiores recusandae? Assumenda officiis laudantium aperiam tenetur.
+
+Atque commodi, amet aperiam unde facere nobis asperiores dolor aut fugiat blanditiis, expedita praesentium pariatur, doloribus suscipit eveniet rerum id a inventore ipsam tenetur quidem laborum vero. Ducimus fugiat dolores culpa id mollitia ipsa quam, voluptatem veniam dignissimos voluptas nostrum quaerat quae repellendus ad praesentium quod possimus cumque, nisi accusamus cupiditate sequi tenetur! Suscipit numquam et placeat, id facere deleniti dolorem autem iusto quae architecto sit accusantium distinctio minima amet soluta quas, a optio vitae, nobis assumenda ea illum sunt. Aliquam quia, distinctio, totam animi dolor quis mollitia, ratione nostrum hic omnis, similique nemo nobis aut suscipit autem esse voluptatibus minima illum iusto recusandae voluptate natus harum enim sed modi. Repudiandae nostrum atque, ab repellendus tenetur facilis modi, beatae suscipit laboriosam, provident accusantium rerum. Accusantium natus ipsa dolores, odio nam, fugit perspiciatis incidunt quis eaque quos sed alias fugiat eius nisi minus molestias expedita ducimus inventore voluptas nulla libero dolor similique aperiam! Nisi quam consectetur eligendi nam quas dolores voluptate soluta, ipsam sed ratione esse amet officiis! In, voluptates cumque expedita!
+
+----
+
+Sidebar: 
+
+## Most Recently
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nesciunt, sequi distinctio, facilis in totam odit culpa, perferendis nostrum similique aperiam officiis voluptates ullam debitis facere! Numquam voluptatem sapiente ipsa provident architecto voluptatum quos consequuntur fugiat earum nihil veritatis dicta corporis, cum beatae inventore quas delectus alias voluptate debitis a culpa minima quis ad iste. At voluptates, fuga suscipit veniam magni blanditiis neque rem. Saepe, id iste? Itaque sed eum ipsam veritatis nobis consectetur eveniet. Ab illo eaque officiis natus quidem porro maxime, nisi amet veniam inventore dolorum aliquid minima incidunt cumque laudantium repellat sapiente, deleniti harum placeat rerum quaerat iure molestiae vel. Modi ullam fugiat fugit numquam facilis, nihil at veniam possimus consequatur voluptates eaque excepturi necessitatibus distinctio ipsa incidunt, ipsum asperiores recusandae? Assumenda officiis laudantium aperiam tenetur.
+
+##### Site Information
+Saepe, id iste? Itaque sed eum ipsam veritatis nobis consectetur eveniet. Ab illo eaque officiis natus quidem porro maxime, nisi amet veniam inventore dolorum aliquid minima incidunt cumque laudantium repellat sapiente, deleniti harum placeat rerum quaerat iure molestiae vel. Modi ullam fugiat fugit numquam facilis, nihil at veniam possimus consequatur voluptates eaque excepturi necessitatibus distinctio ipsa incidunt, ipsum asperiores recusandae? Assumenda officiis laudantium aperiam tenetur.

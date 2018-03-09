@@ -10,6 +10,18 @@ fields:
   intro:
     label: Intro
     type:  textarea
+  
+  about:
+    label: About
+    type: textarea
+    
+  contact: 
+    label: Contact
+    type: textarea
+    
+  side:
+    label: Side
+    type: textarea
 
   text:
     label: Text

@@ -21,6 +21,10 @@ fields:
     default: today
     required: true
     width: 1/2
+    
+  intro:
+    label: Intro
+    type: textarea
   
   text:
     label: Text

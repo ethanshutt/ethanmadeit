@@ -1,12 +1,12 @@
-Title: Kirby Starterkit
+Title: Ethan Made It
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Ethan Shutt
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Hi there, my name is Ethan Shutt. I’m a designer making things for print and the web.
 
 ----
 

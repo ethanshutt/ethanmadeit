@@ -21,6 +21,8 @@
   <div class="container">
     <?php snippet('menu') ?>
     <header class="header">
-      <h1 class="big-text">Hi there, my name is <strong>Ethan Shutt</strong>. I’m a designer making things for <a href="#print">print</a> and the <a href="#web">web</a>.</h1>
+      <h1 class="big-text">
+        <?= $page->intro() ?>
+      </h1>
     </header>
     <!-- header -->
