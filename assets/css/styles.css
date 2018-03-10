@@ -10,7 +10,7 @@ html{
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 16px;
+  font-size: 14px;
 }
 body {
   margin: 0;
@@ -26,11 +26,11 @@ body {
 .container {
   box-sizing: border-box;
   margin: 0 auto;
-  max-width: 80em;
+  max-width: 100em;
   width: 80%;
 }
 .nav {
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 .menu {
   display: inline-block;
@@ -45,12 +45,12 @@ body {
 .sidebar {
   display: inline-block;
   width: 30%;
-  margin-right: 5%;
+  padding-right: 10%;
   vertical-align: top;
 }
 .content {
   display: inline-block;
-  width: 65%;
+  width: 55%;
   vertical-align: top;
 }
 .writing .content {
@@ -69,7 +69,7 @@ h1,h2,h3,h4 {
   margin-bottom: 1rem;
 }
 a {
-  color: #3D665F;
+  color: #3D993D;
   text-decoration: none;
 }
 a:hover {
@@ -83,14 +83,14 @@ a:hover {
   font-weight: bold;
 }
 .logo-link:hover {
-  color: #3D665F;
+  color: #3D993D;
 }
 .menu li a {
   color: #ccc;
 }
-#active, .menu a:hover {
-  color: #181818;
-  border-bottom: 1px solid #181818;
+#active a, .menu a:hover {
+  color: #3D993D;
+  border-bottom: 1px solid #3D993D;
 }
 mark {
   background-color: #F9E79D;
@@ -101,6 +101,11 @@ h1 {
 }
 h2 {
   font-size: 2em;
+}
+.section-title {
+  font-size: 1em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
 }
 h3 {
   font-size: 1.8em;
@@ -116,9 +121,13 @@ h5 {
 }
 p {
   font-size: 1.3em;
-  line-height: 1.8;
+  line-height: 1.9;
   margin: 0 0 1.5rem 0;
   font-family: 'skolar-latin', serif;
+}
+.sidebar p {
+  font-size: 1em;
+  line-height: 1.5;
 }
 blockquote {
   border-left: 3px solid #ccc;
@@ -232,21 +241,24 @@ label {
   line-height: 1;
 }
 .button:hover, a.button:hover, [type=submit]:hover, [type=reset]:hover, [type=button]:hover, button:hover {
-  background: #3D665F;
-  border-color: #3D665F;
+  background: #3D993D;
+  border-color: #3D993D;
   color: #fff;
 }
 .big-text {
   color: #181818;
   display: block;
-  font-size: 4em;
+  font-size: 3em;
   font-weight: normal;
   line-height: 1.4;
+}
+.home .big-text {
+  padding-right: 45%;
 }
 .about .big-text {
   position: relative;
   top: 6rem;
-  margin-left: 35%;
+  margin-left: 40%;
 }
 /*  Text Helpers */
 small {
@@ -263,7 +275,14 @@ small {
   letter-spacing: .1em;
   text-transform: uppercase;
 }
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+}
 /* Image Helpers */
+figure img {
+  width: 100%;
+}
+
 .browser-width {
   left: -25vw;
   position: relative;
@@ -294,35 +313,29 @@ small {
 
 /* Layout & General Styles */
 .header {
-  margin: 10rem 0 6rem 0;
+  margin: 14rem 0;
 }
 .about .header {
   background-image: url('../images/ethan-shutt-headshot.jpg');
   background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: 50%;
+  background-position: left center;
+  background-size: 55%;
   height: 40vh;
 }
 .showcase-item {
   display: inline-block;
-  width: 30%;
+  width: 100%;
   margin: 0 2.5% 1.2rem 0;
   vertical-align: top;
 }
 .showcase-item img {
   width: 100%;
 }
-.showcase-link:hover{
+.showcase-link:hover {
   border: 0;
   opacity: .8;
 }
 .post-preview {
-  width: 45%;
-  display: inline-block;
-  margin: 0 1% 0 0;
-  vertical-align: top;
-}
-.writing .post-preview {
-  width: 100%;
-  margin: 0 0 2rem 0;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
 }

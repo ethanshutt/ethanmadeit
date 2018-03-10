@@ -1,10 +1,15 @@
-title: Page
+title: Page with Sidebar
 
 fields:
   title:
     label: Title
     type:  text
+    
+  sidebar: 
+    label: Sidebar
+    type: textarea
 
   text:
     label: Text
     type:  textarea
+    

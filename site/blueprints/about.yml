@@ -15,12 +15,12 @@ fields:
     label: Title
     type: title
     
-  sidebar: 
-    label: Sidebar
-    type: textarea
-    
   intro:
     label: Intro
+    type: textarea
+    
+  sidebar: 
+    label: Sidebar
     type: textarea
     
   text:

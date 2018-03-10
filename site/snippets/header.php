@@ -17,7 +17,11 @@
 
   <title>Ethan Made It</title>
 </head>
-<body class="<?= $page->id() ?>">
+<body class="<?php if ($page->isChildOf('writing')): ?>
+              <?= $page->parent()->uid() ?>
+            <?php else: ?>
+              <?= $page->uid() ?>
+            <?php endif ?>">
   <div class="container">
     <?php snippet('menu') ?>
     <header class="header">
@@ -26,3 +30,4 @@
       </h1>
     </header>
     <!-- header -->
+

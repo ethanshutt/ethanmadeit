@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
-<?php snippet('sidebar') ?>
+
 <div class="content">
-  <?php snippet('articlelist') ?>
+  <?= $page->text()->kirbytext() ?>
 </div>
 <?php snippet('footer') ?>

@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Intro: Taylor is the coolest person on earth.
+Intro: Hi there, my name is Ethan Shutt, I'm a designer making things for print and the web. I'm also a dedicated learner, problem-solver, and team player.
 
 ----
 
@@ -10,7 +10,7 @@ Text:
 
 ----
 
-About: I like turtles.
+About: 
 
 ----
 

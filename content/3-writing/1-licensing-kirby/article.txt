@@ -12,7 +12,7 @@ As you probably already know, Kirby is a commercial product. You can try it as l
 
 To keep Kirby affordable for as many people as possible, we have decided to make it available under a *personal* and a *commercial* license. The personal license may be used for personal / non-commercial projects only. The following chart may be helpful for you to decide which license is the right one for your project.
 
-(image: licensing.png caption: If you’re not sure which license is the right one for your project, this chart might be helpful.)
+(image: licensing.png class: extend-left caption: If you’re not sure which license is the right one for your project, this chart might be helpful.)
 
 We trust in you to support us with a legally purchased license if you like Kirby.
 
@@ -25,4 +25,8 @@ We trust in you to support us with a legally purchased license if you like Kirby
 
 ----
 
-Coverimage:
+Coverimage: 
+
+----
+
+Intro: 
