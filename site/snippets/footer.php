@@ -1,20 +1,7 @@
 <footer class="site-footer">
-  <div>
-    <ul>
-      <li>
-        <a href="#">Twitter</a>
-      </li>
-      <li>
-        <a href="#">Instagram</a>
-      </li>
-      <li>
-        <a href="#">GitHub</a>
-      </li>
-      <li>
-        <a href="#">Email</a>
-      </li>
-    </ul>
-  </div>
+  <p class="footer-copyright"><?php echo html::decode($site->copyright()->kirbytext())?></p>
+  <p class="colophon"><?= $site->colophon()->kirbytext() ?></p>
+  <a href="#" class="button">Go Back Up</a>
 </footer>
 </div>
 

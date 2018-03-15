@@ -18,16 +18,19 @@
   <title>Ethan Made It</title>
 </head>
 <body class="<?php if ($page->isChildOf('writing')): ?>
-              <?= $page->parent()->uid() ?>
+              article
             <?php else: ?>
               <?= $page->uid() ?>
             <?php endif ?>">
   <div class="container">
     <?php snippet('menu') ?>
     <header class="header">
-      <h1 class="big-text">
-        <?= $page->intro() ?>
-      </h1>
+        <?php if ($page->isChildOf('writing')): ?>
+                      <h1 class="big-text"><?= $page->title() ?></h1>
+                      <h4><?= $page->date('F jS, Y') ?></h4>
+                    <?php else: ?>
+                      <h1 class="big-text"><?= $page->intro() ?></h1>
+                    <?php endif ?>
     </header>
     <!-- header -->
 

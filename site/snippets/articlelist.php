@@ -1,6 +1,6 @@
 <?php foreach($pages->find('writing')->children()->visible()->flip() as $article): ?>
 
-  <article class="post post-preview">
+  <article class="post-preview">
     <header class="article-header">
       <a href="<?= $article->url() ?>"><h4><?= $article->title()->html() ?></h4></a>
     </header>

@@ -10,4 +10,8 @@ Description: Hi there, my name is Ethan Shutt. I’m a designer making things fo
 
 ----
 
-Copyright: © 2009–(date: Year) (link: http://getkirby.com text: The Kirby Team)
+Copyright: © (date: Year) Ethan Shutt.
+
+----
+
+Colophon: This site was coded from scratch using HTML, CSS, and some Javascript. (link: http://getkirby.com text: Kirby CMS) is behind the scenes managing all of the content. All typography is provided thanks to (link: http://typekit.com text: Typekit). The body copy is set in *Skolar Latin* and headings are set in *Freight Sans Pro.*

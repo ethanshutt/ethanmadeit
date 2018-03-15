@@ -2,9 +2,12 @@
 
 <div class="content">
   <div class="post">
-    <h4><?= $page->date('F jS, Y') ?></h4>
-    <p><?= $page->text()->kirbytext()->html() ?></p>
+    <span class="post-intro"><?= $page->intro()->kirbytext()->html() ?></span>
+    <?= $page->text()->kirbytext()->html() ?>
   </div>
+</div>
+<div class="other-posts">
+  <?php snippet('articlelist') ?>
 </div>
 
 <?php snippet('footer') ?>

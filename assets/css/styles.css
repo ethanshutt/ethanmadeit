@@ -53,12 +53,13 @@ body {
   width: 55%;
   vertical-align: top;
 }
-.writing .content {
+.article .content {
   width: 100%;
   display: block;
 }
-.writing .content .post {
+.article .post {
   margin: 0 17.5%;
+  padding-bottom: 6rem;
 }
 section {
   margin: 0 0 3rem 0;
@@ -66,7 +67,7 @@ section {
 h1,h2,h3,h4 {
   line-height: 1.2;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: .75rem;
 }
 a {
   color: #3D993D;
@@ -86,7 +87,7 @@ a:hover {
   color: #3D993D;
 }
 .menu li a {
-  color: #ccc;
+  color: #8c8c8c;
 }
 #active a, .menu a:hover {
   color: #3D993D;
@@ -104,8 +105,19 @@ h2 {
 }
 .section-title {
   font-size: 1em;
-  letter-spacing: .1em;
+  letter-spacing: 1px;
+  position: relative;
   text-transform: uppercase;
+}
+.section-title:after {
+  background: #343434;
+  content: "";
+  height: 2px;
+  position: absolute;
+  width: 40%;
+  top: 8px;
+  margin-left: 1em;
+  z-index: 1;
 }
 h3 {
   font-size: 1.8em;
@@ -125,12 +137,20 @@ p {
   margin: 0 0 1.5rem 0;
   font-family: 'skolar-latin', serif;
 }
-.sidebar p {
+.post-intro {
+  font-size: 1.8em;
+}
+.sidebar p, .site-footer p {
   font-size: 1em;
   line-height: 1.5;
 }
+.site-footer p {
+  color: #8c8c8c;
+  display: block;
+  width: 30%;
+}
 blockquote {
-  border-left: 3px solid #ccc;
+  border-left: 3px solid #8c8c8c;
   font-size: 1em;
   margin: 0 0 1.5rem;
   padding: 0 3rem;
@@ -144,19 +164,24 @@ cite {
   margin-bottom: 2rem;
 }
 pre, code {
+  color: #8c8c8c;
   font-family: monospace;
 }
 pre {
   padding: 1rem;
   font-size: 1.4em;
+  margin: 3rem 0;
 }
 hr {
-  height: 0;
   border: 0;
   border-bottom: 1px solid #ccc;
+  height: 0;
+  margin: 3rem 0;
+}
+figure {
   margin-bottom: 2rem;
 }
-.content ul, .content  ol, .content dl, .content table {
+.content ul, .content ol, .content dl, .content table {
   margin: 0 2rem 1.5rem;
 }
 .content ul ul, .content  ol ul, .content ol ol {
@@ -198,10 +223,10 @@ td {
   border-bottom: 1px solid #ccc;
 }
 thead th {
-  border-bottom: 1px solid #888;
+  border-bottom: 1px solid #8c8c8c;
 }
 tfoot th {
-  border-top: 1px solid #888;
+  border-top: 1px solid #8c8c8c;
 }
 [type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], select, textarea {
   display: block;
@@ -313,7 +338,7 @@ figure img {
 
 /* Layout & General Styles */
 .header {
-  margin: 14rem 0;
+  margin: 14rem 0 8rem 0;
 }
 .about .header {
   background-image: url('../images/ethan-shutt-headshot.jpg');
@@ -328,14 +353,41 @@ figure img {
   margin: 0 2.5% 1.2rem 0;
   vertical-align: top;
 }
-.showcase-item img {
-  width: 100%;
-}
 .showcase-link:hover {
   border: 0;
   opacity: .8;
 }
+.project {
+  margin-bottom: 2rem;
+}
+.first {
+  display: inline-block;
+  width: 50%;
+  vertical-align: bottom;
+}
+.second {
+  display: inline-block;
+  margin-left: 4%;
+  margin-top: 2rem;
+  width: 45%;
+  vertical-align: bottom;
+}
+.even .first {
+  width: 30%;
+}
+.even .second {
+  width: 65%;
+}
 .post-preview {
   margin-bottom: 3rem;
   padding-bottom: 2rem;
+}
+.article .post-preview {
+  display: inline-block;
+  width: 25%;
+  margin-right: 5%;
+  vertical-align: top;
+}
+.site-footer {
+  padding: 2rem 0 3rem 0;
 }
