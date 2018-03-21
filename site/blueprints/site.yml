@@ -20,3 +20,19 @@ fields:
   colophon:
     label: Colophon
     type: textarea
+    
+  twitter:
+    label: Twitter
+    type: text
+    
+  instagram: 
+    label: Instagram
+    type: text
+  
+  github: 
+    label: GitHub
+    type: text
+  
+  linkedin: 
+    label: LinkedIn
+    type: text

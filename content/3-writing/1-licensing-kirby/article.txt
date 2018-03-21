@@ -29,4 +29,4 @@ Coverimage:
 
 ----
 
-Intro: 
+Intro: As you probably already know, Kirby is a commercial product. You can try it as long as you want on your local machine and the source code is available on (link: http://github.com/getkirby text: GitHub). But as soon as your want to use Kirby in production, you need to [purchase a license](https://getkirby.com/buy).

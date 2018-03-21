@@ -7,6 +7,7 @@
   </div>
 </div>
 <div class="other-posts">
+  <h3 class="section-title">Other Articles</h3>
   <?php snippet('articlelist') ?>
 </div>
 

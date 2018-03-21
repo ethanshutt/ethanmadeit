@@ -26,10 +26,10 @@
     <?php snippet('menu') ?>
     <header class="header">
         <?php if ($page->isChildOf('writing')): ?>
-                      <h1 class="big-text"><?= $page->title() ?></h1>
+                      <div class="big-text"><h1><?= $page->title() ?></h1></div>
                       <h4><?= $page->date('F jS, Y') ?></h4>
                     <?php else: ?>
-                      <h1 class="big-text"><?= $page->intro() ?></h1>
+                      <div class="big-text"><?= $page->intro()->kirbytext() ?></div>
                     <?php endif ?>
     </header>
     <!-- header -->

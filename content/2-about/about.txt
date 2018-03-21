@@ -2,7 +2,7 @@ Title: About
 
 ----
 
-Intro: I'm from and currently live in the rolling hills of Western Kentucky with my  wife, Taylor.
+Intro: #I'm from and currently live in the rolling hills of Western Kentucky with my  wife, Taylor.
 
 ----
 

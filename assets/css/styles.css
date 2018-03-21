@@ -42,13 +42,13 @@ body {
   display: inline-block;
   margin: 0 1rem 0 0;
 }
-.sidebar {
+.sidebar, .left {
   display: inline-block;
   width: 30%;
   padding-right: 10%;
   vertical-align: top;
 }
-.content {
+.content, .right {
   display: inline-block;
   width: 55%;
   vertical-align: top;
@@ -104,13 +104,14 @@ h2 {
   font-size: 2em;
 }
 .section-title {
+  color: #8c8c8c;
   font-size: 1em;
   letter-spacing: 1px;
   position: relative;
   text-transform: uppercase;
 }
 .section-title:after {
-  background: #343434;
+  background: #8c8c8c;
   content: "";
   height: 2px;
   position: absolute;
@@ -147,7 +148,6 @@ p {
 .site-footer p {
   color: #8c8c8c;
   display: block;
-  width: 30%;
 }
 blockquote {
   border-left: 3px solid #8c8c8c;
@@ -270,20 +270,27 @@ label {
   border-color: #3D993D;
   color: #fff;
 }
+.back-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+}
 .big-text {
   color: #181818;
   display: block;
-  font-size: 3em;
-  font-weight: normal;
-  line-height: 1.4;
+  font-size: 1.4em;
+  line-height: 1.9;
 }
 .home .big-text {
-  padding-right: 45%;
+  padding-right: 35%;
 }
 .about .big-text {
   position: relative;
   top: 6rem;
   margin-left: 40%;
+}
+.big-text h1 {
+  font-weight: normal;
 }
 /*  Text Helpers */
 small {
@@ -379,15 +386,20 @@ figure img {
   width: 65%;
 }
 .post-preview {
-  margin-bottom: 3rem;
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 .article .post-preview {
   display: inline-block;
-  width: 25%;
-  margin-right: 5%;
+  width: 30%;
+  margin-right: 10%;
   vertical-align: top;
 }
 .site-footer {
-  padding: 2rem 0 3rem 0;
+  padding: 6rem 0 3rem 0;
+}
+.footer-links, .social-list {
+  display: inline-block;
+  padding-right: 2rem;
+  width: 30%;
+  vertical-align: top;
 }

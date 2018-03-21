@@ -5,7 +5,7 @@
       <a href="<?= $article->url() ?>"><h4><?= $article->title()->html() ?></h4></a>
     </header>
     <div class="article-content">
-      <p><?= $article->intro() ?></p>
+        <?= $article->intro()->kirbytext() ?>
     </div>
     <footer class="article-preview-footer"><?= $article->date('F jS, Y') ?> - <a href="<?= $article->url() ?>">Read On..</a></footer>
   </article>

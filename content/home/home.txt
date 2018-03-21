@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Intro: Hi there, my name is Ethan Shutt, I'm a designer making things for print and the web. I'm also a dedicated learner, problem-solver, and team player.
+Intro: # Hi there, my name is Ethan Shutt, I'm a designer making things for print and the web. I'm also a dedicated learner, problem-solver, and team player.
 
 ----
 

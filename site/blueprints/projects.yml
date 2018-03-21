@@ -18,3 +18,7 @@ fields:
   text:
     label: Text
     type:  textarea
+  
+  sidebar:
+    label: Sidebar
+    type: textarea

@@ -15,3 +15,19 @@ Copyright: © (date: Year) Ethan Shutt.
 ----
 
 Colophon: This site was coded from scratch using HTML, CSS, and some Javascript. (link: http://getkirby.com text: Kirby CMS) is behind the scenes managing all of the content. All typography is provided thanks to (link: http://typekit.com text: Typekit). The body copy is set in *Skolar Latin* and headings are set in *Freight Sans Pro.*
+
+----
+
+Twitter: http://twitter.com/ethanmadeit
+
+----
+
+Instagram: http://instagram.com/ethanmadeit
+
+----
+
+Github: http://github.com/ethanshutt
+
+----
+
+Linkedin: http://linkedin.com/in/ethanshutt
