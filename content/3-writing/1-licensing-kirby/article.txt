@@ -7,21 +7,63 @@ Date: 2016-08-03
 ----
 
 Text: 
+# Heading 1
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aliquid, quo! Cupiditate, blanditiis. Commodi vero voluptas omnis esse, repellat necessitatibus.
+## Heading 2
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aliquid, quo! Cupiditate, blanditiis. Commodi vero voluptas omnis esse, repellat necessitatibus.
+### Heading 3
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aliquid, quo! Cupiditate, blanditiis. Commodi vero voluptas omnis esse, repellat necessitatibus.
+#### Heading 4
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aliquid, quo! Cupiditate, blanditiis. Commodi vero voluptas omnis esse, repellat necessitatibus.
+##### Heading 5
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aliquid, quo! Cupiditate, blanditiis. Commodi vero voluptas omnis esse, repellat necessitatibus.
 
-As you probably already know, Kirby is a commercial product. You can try it as long as you want on your local machine and the source code is available on (link: http://github.com/getkirby text: GitHub). But as soon as your want to use Kirby in production, you need to [purchase a license](https://getkirby.com/buy).
+# Lists
+**Unordered List**
+* Item 1
+	* Subitem 1
+	* Subitem 2
+* Item 2
+* Item 3
+* Item 4
 
-To keep Kirby affordable for as many people as possible, we have decided to make it available under a *personal* and a *commercial* license. The personal license may be used for personal / non-commercial projects only. The following chart may be helpful for you to decide which license is the right one for your project.
+**Ordered List**
+1. Item 1
+	1. Subitem 1
+	2. Subitem 2
+2. Item 2
+3. Item 3
+4. Item 4
 
-(image: licensing.png class: extend-left caption: If you’re not sure which license is the right one for your project, this chart might be helpful.)
+# Images 
+## Centered
+(image:cover_image.png class:centered caption:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, ipsa!)
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ratione beatae officiis magni omnis dolorum optio, pariatur, eos laboriosam explicabo.
+## Extend-Left
+(image:cover_image.png class:extend-left caption:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, deleniti?)
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint delectus, dolore est tempora consequuntur quasi, neque illo cum nemo similique.
+## Extend-Right
+(image:cover_image.png class:extend-right caption:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, culpa.)
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium fugiat adipisci consequuntur ex vel voluptatem, ipsam quaerat id voluptates exercitationem.
+## Content-Width
+(image:cover_image.png class:content-width caption:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, error.)
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt libero iste, numquam ea veritatis, labore recusandae tenetur reprehenderit soluta necessitatibus?
 
-We trust in you to support us with a legally purchased license if you like Kirby.
+# Quotes and Code 
+> Design is not just what it looks like and feels like.
+> Design is how it works.
 
-***
+– Steve Jobs
 
-**Further reading**
+```
+<?php
 
-- [Entering the license code](https://getkirby.com/docs/installation/license-code) (Kirby Documentation)
-- [Free Trial](https://getkirby.com/blog/free-trial) (blog post about our license model)
+// awesome code example
+
+?>
+```
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ----
 
@@ -29,4 +71,4 @@ Coverimage:
 
 ----
 
-Intro: As you probably already know, Kirby is a commercial product. You can try it as long as you want on your local machine and the source code is available on (link: http://github.com/getkirby text: GitHub). But as soon as your want to use Kirby in production, you need to [purchase a license](https://getkirby.com/buy).
+Intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, quidem. Itaque expedita similique veniam ab.
