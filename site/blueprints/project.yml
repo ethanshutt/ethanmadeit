@@ -3,19 +3,21 @@ title: Project
 files:
   sortable: true
 
-pages: false
-
 fields:
   title:
     label: Title
     type:  text
     width: 3/4
 
-  year:
-    label: Year
+  type:
+    label: Type
     type:  text
     width: 1/4
-
+    
+  sidebar: 
+    label: Sidebar
+    type: textarea
+    
   text:
     label: Text
     type:  textarea

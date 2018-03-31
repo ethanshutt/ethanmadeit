@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<?php snippet ('sidebar') ?><div class="content">
+<div class="content">
   <section class="projects">
     <h3 class="section-title">Things I’ve Made</h3>
     <div class="showcase grid">
@@ -13,5 +13,5 @@
     <a class="button" href="/writing">Find Other Articles</a>
   </section>
 </div>
-
+<?php snippet ('sidebar') ?>
 <?php snippet('footer') ?>

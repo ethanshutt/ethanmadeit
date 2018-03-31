@@ -16,10 +16,11 @@
       <li class="social-list-item"><a href="<?= $site->github() ?>">GitHub</a></li>
       <li class="social-list-item"><a href="<?= $site->linkedin() ?>">LinkedIn</a></li>
     </ul>
-    <a href="#top" class="button back-top">Back to Top</a>
+    <a href="#top" onClick="topFunction" id="to-top" class="button">Back to Top</a>
   </div>
 </footer>
 </div>
+<?= js('assets/js/scripts.js') ?>
 
 </body>
 </html>

@@ -39,14 +39,19 @@ body {
     font-size: 140%;
   }
 }
+/* Links & Anchor Tags */
 a {
   color: #3D993D;
-  text-decoration: none;
+  text-decoration: dashed;
 }
 a:hover {
   color: black;
-  border-bottom: 1px solid black;
+  text-decoration: underline;
 }
+.external-link::after {
+  content: '';
+}
+/* General Typography */
 mark {
   background-color: #F9E79D;
   padding: 0 .2em;
@@ -88,10 +93,10 @@ p {
 }
 #active a, .menu a:hover {
   color: #3D993D;
-  border-bottom: 1px solid #3D993D;
+  text-decoration: underline;
 }
 .big-text {
-  color: #181818;
+  color: #343434;
   display: block;
   font-size: 1.4em;
   line-height: 1.9;
@@ -107,12 +112,12 @@ p {
   text-transform: uppercase;
 }
 .section-title:after {
-  background: #8c8c8c;
+  background: #ccc;
   content: "";
   height: 2px;
   position: absolute;
   width: 40%;
-  top: 8px;
+  top: .7em;
   margin-left: 1em;
   z-index: 1;
 }
@@ -125,15 +130,23 @@ p {
 .sidebar p, .site-footer p {
   font-size: 1em;
 }
+.sidebar ul, .sidebar ol {
+  margin-bottom: 1.5em;
+}
 .site-footer p {
   color: #8c8c8c;
 }
 /* Quotes, Code, Rules */
 blockquote {
-  border-left: 1em solid #8c8c8c;
+  border-left: .2em solid #8c8c8c;
+  color: #8c8c8c;
   font-size: 1.2em;
+  line-height: 1.5;
   margin: 0 0 1.5em;
-  padding: 0 3em;
+  padding: 0 2em;
+}
+blockquote p {
+  font-family: freight-sans-pro;
 }
 blockquote cite {
   display: block;
@@ -148,18 +161,23 @@ pre, code {
   font-family: monospace;
 }
 pre {
-  border: .2em solid #ccc;
-  border-top: 1.2em solid #ccc;
+  background: #ccc;
+  border: .2em solid #343434;
+  border-top: 1.2em solid #343434;
   border-radius: .5em;
   padding: 1em;
   font-size: 1.4em;
   margin: 3em 0;
 }
-hr {
-  border: 0;
-  border-bottom: 1px solid #ccc;
-  height: 0;
-  margin: 3em 0;
+hr::before{
+  content: '***';
+  color: #CCC;
+  display: block;
+  font-size: 1.5em;
+  letter-spacing: .2em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-align: center;
 }
 /*  Text Helpers */
 small {
@@ -296,8 +314,10 @@ label {
   background: #3D993D;
   border-color: #3D993D;
   color: #fff;
+  text-decoration: none;
 }
-.back-top {
+#to-top {
+  display: none;
   position: fixed;
   right: 2em;
   bottom: 2em;
@@ -322,38 +342,33 @@ label {
   display: inline-block;
   margin: 0 1em 0 0;
 }
-.sidebar, .left {
+.content {
+  margin-bottom: 4em; 
+}
+.sidebar, .right {
   display: inline-block;
   width: 30%;
-  padding-right: 10%;
+  padding-left: 10%;
   vertical-align: top;
 }
-.content, .right {
+.content, .left {
   display: inline-block;
   width: 55%;
   vertical-align: top;
+}
+.about .sidebar, .writing .sidebar {
+  padding-left: 0;
+  padding-right: 10%;
 }
 section {
   margin: 0 0 3em 0;
 }
 /* Page-Specific Styling */
-.home .big-text {
-  padding-right: 35%;
-}
 .about .big-text {
   position: relative;
   top: 6em;
   margin-left: 40%;
 }
-.article .content {
-  width: 100%;
-  display: block;
-}
-.article .post {
-  margin: 0 17.5%;
-  padding-bottom: 6em;
-}
-
 /* Layout & General Styles */
 .header {
   margin: 14em 0 8em 0;
@@ -374,6 +389,7 @@ section {
 .showcase-link:hover {
   border: 0;
   opacity: .8;
+  text-decoration: none;
 }
 .project {
   margin-bottom: 2em;
@@ -391,19 +407,13 @@ section {
   vertical-align: bottom;
 }
 .even .first {
-  width: 30%;
+  width: 40%;
 }
 .even .second {
-  width: 65%;
+  width: 55%;
 }
 .post-preview {
   margin-bottom: 2em;
-}
-.article .post-preview {
-  display: inline-block;
-  width: 30%;
-  margin-right: 10%;
-  vertical-align: top;
 }
 .site-footer {
   padding: 6em 0 3em 0;

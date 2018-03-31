@@ -28,6 +28,9 @@
         <?php if ($page->isChildOf('writing')): ?>
                       <div class="big-text"><h1><?= $page->title() ?></h1></div>
                       <h4><?= $page->date('F jS, Y') ?></h4>
+                    <?php elseif ($page->isChildOf('projects')): ?>
+                      <div class="big-text"><h1><?= $page->title() ?></h1></div>
+                      <h4><?= $page->type('F jS, Y') ?></h4>
                     <?php else: ?>
                       <div class="big-text"><?= $page->intro()->kirbytext() ?></div>
                     <?php endif ?>

@@ -7,6 +7,7 @@ Date: 2016-08-03
 ----
 
 Text: 
+
 # Heading 1
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aliquid, quo! Cupiditate, blanditiis. Commodi vero voluptas omnis esse, repellat necessitatibus.
 ## Heading 2
@@ -14,7 +15,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aliquid, qu
 ### Heading 3
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aliquid, quo! Cupiditate, blanditiis. Commodi vero voluptas omnis esse, repellat necessitatibus.
 #### Heading 4
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aliquid, quo! Cupiditate, blanditiis. Commodi vero voluptas omnis esse, repellat necessitatibus.
+Lorem ipsum dolor sit amet, (link: http://google.com text: consectetur class: external-link) adipisicing elit. Excepturi, aliquid, quo! Cupiditate, blanditiis. Commodi vero voluptas omnis esse, repellat necessitatibus.
 ##### Heading 5
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aliquid, quo! Cupiditate, blanditiis. Commodi vero voluptas omnis esse, repellat necessitatibus.
 

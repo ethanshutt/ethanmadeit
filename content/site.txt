@@ -14,7 +14,11 @@ Copyright: © (date: Year) Ethan Shutt.
 
 ----
 
-Colophon: This site was coded from scratch using HTML, CSS, and some Javascript. (link: http://getkirby.com text: Kirby CMS) is behind the scenes managing all of the content. All typography is provided thanks to (link: http://typekit.com text: Typekit). The body copy is set in *Skolar Latin* and headings are set in *Freight Sans Pro.*
+Colophon: 
+
+This site was coded from scratch using HTML, CSS, and some Javascript. (link: http://getkirby.com text: Kirby CMS) is behind the scenes managing all of the content. All typography is provided thanks to (link: http://typekit.com text: Typekit). The body copy is set in *Skolar Latin* and headings are set in *Freight Sans Pro.*
+
+This site is the culmination of many late nights and long weekends – I learned by trying what I didn't know and breaking everything. I extend a huge thanks to those who gave me plenty of feedback along the way.
 
 ----
 

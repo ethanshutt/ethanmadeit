@@ -1,6 +1,9 @@
 <?php snippet('header') ?>
-
+<?php snippet('sidebar') ?>
 <div class="content">
-  <?= $page->text()->kirbytext() ?>
+  <div class="project">
+    <?= $page->text()->kirbytext()->html() ?>
+  </div>
 </div>
+<?php snippet('sidebar') ?>
 <?php snippet('footer') ?>
