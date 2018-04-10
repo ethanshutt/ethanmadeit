@@ -13,6 +13,10 @@ fields:
     label: Type
     type:  text
     width: 1/4
+        
+  preview:
+    label: Preview
+    type:  textarea
     
   sidebar: 
     label: Sidebar

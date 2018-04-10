@@ -2,8 +2,12 @@ Title: Error
 
 ----
 
-Intro: The page has not been found.
+Intro: Yikes, that didn't work out.
 
 ----
 
-Text: Well, stuff can go wrong sometimes and maybe you mistyped a URL, tapped/clicked on a broken link or your computer just wants to drive you nuts. Anyway … keep calm and take a look at our beautiful (link: / text: homepage) instead.
+Text: 
+
+Something didn't quite work out right just now. It could have been a misspelled or broken link or that page doesn't exist anymore.
+
+It's all good though, you can always go to (link:/ text: the home page.)

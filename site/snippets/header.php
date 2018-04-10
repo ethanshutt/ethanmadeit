@@ -17,20 +17,16 @@
 
   <title>Ethan Made It</title>
 </head>
-<body class="<?php if ($page->isChildOf('writing')): ?>
-              article
-            <?php else: ?>
-              <?= $page->uid() ?>
-            <?php endif ?>">
+<body class="<?php if ($page->isChildOf('writing')): ?> article <?php elseif ($page->isChildOf('work')): ?> work <?php else: ?><?= $page->uid() ?> <?php endif ?>">
   <div class="container">
     <?php snippet('menu') ?>
     <header class="header">
         <?php if ($page->isChildOf('writing')): ?>
                       <div class="big-text"><h1><?= $page->title() ?></h1></div>
                       <h4><?= $page->date('F jS, Y') ?></h4>
-                    <?php elseif ($page->isChildOf('projects')): ?>
+                    <?php elseif ($page->isChildOf('work')): ?>
                       <div class="big-text"><h1><?= $page->title() ?></h1></div>
-                      <h4><?= $page->type('F jS, Y') ?></h4>
+                      <h4><?= $page->type() ?></h4>
                     <?php else: ?>
                       <div class="big-text"><?= $page->intro()->kirbytext() ?></div>
                     <?php endif ?>

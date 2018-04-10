@@ -1,0 +1,24 @@
+title: Work
+
+files: false
+
+pages:
+  template: project
+
+options: 
+  template: false  
+  status: false  
+  url: true  
+
+fields:
+  title:
+    label: Title
+    type:  text
+  
+  intro:
+    label: Intro
+    type: textarea
+  
+  sidebar:
+    label: Sidebar
+    type: textarea

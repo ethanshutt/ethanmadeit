@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Intro: # Hi there, my name is Ethan Shutt, I'm a designer making things for (link:# text:print) and the (link:# text:web). I'm also a dedicated learner, problem-solver, and team player.
+Intro: # Hi there, my name is Ethan Shutt, I'm a designer making things for print and the web. I'm also a dedicated learner, problem-solver, and team player.
 
 ----
 
@@ -15,17 +15,14 @@ About:
 ##### Marketing and Design
 I've been gaining experience with SEO, Traffic Driven Analytics, and developing Content Strategies to help make Hunt Ford Chrysler one of the most popular automotive retail stores in Kentucky – all while assisting the current marketing team in tightening up a cohesive brand throughout our social media channels.
 
-****
 ##### Web and Brand Identity
-I've assisted numerous clients with brand refreshes and all-new logotypes as well as preparing their brand for an increased presence on the web. I've also designed and developed websites for clients to generate new business and increase sales. 
+I've assisted numerous clients with brand refreshes and all-new logotypes as well as preparing their brand for an increased presence on the web. I've also designed and developed websites for clients to generate new business and increase 
 
-##### Selected Clients:
+##### Selected Clients
  - Farmers Hardware of Logan County, Kentucky
  - Logan County Public Library
  - Logan County Chamber of Commerce
  - Industrial Project and Design
-
-****
 
 ----
 

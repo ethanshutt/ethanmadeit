@@ -5,5 +5,4 @@
     <?= $page->text()->kirbytext()->html() ?>
   </div>
 </div>
-<?php snippet('sidebar') ?>
 <?php snippet('footer') ?>

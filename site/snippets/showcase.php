@@ -1,5 +1,5 @@
 <?php
-$projects = page('projects')->children()->visible();
+$projects = page('work')->children()->visible();
 if(isset($limit)) $projects = $projects->limit($limit);
 ?>
 
@@ -16,6 +16,6 @@ if(isset($limit)) $projects = $projects->limit($limit);
       </a>
     </div>
     <a href="<?= $project->url() ?>"><h3 class="project-title"><?= $project->title() ?></h3></a>
-    <p class="project-description"><?= $project->text()->kirbytext()->excerpt(140, 'characters') ?><a class="project-link" href=<?= $project->url() ?>>see more</a></p>  
+    <p class="project-description"><?= $project->preview() ?><a class="project-link" href=<?= $project->url() ?>> See more...</a></p>  
   </div>
   <?php endforeach ?>

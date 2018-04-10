@@ -5,7 +5,7 @@
     <div class="showcase grid">
         <?php snippet('showcase', [limit => 6]) ?>
     </div>
-    <a class="button" href="/projects">See More Work..</a>
+    <a class="button" href="/work">See More Work..</a>
   </section>
   <section class="writing-homepage">
     <h3 class="section-title">Writing</h3>
