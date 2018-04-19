@@ -15,7 +15,7 @@
   <?php endforeach ?>
   <?= css('assets/css/styles.css') ?>
 
-  <title>Ethan Made It</title>
+  <title><?= $site->title() ?> - <?= $page->title() ?></title>
 </head>
 <body class="<?php if ($page->isChildOf('writing')): ?> article <?php elseif ($page->isChildOf('work')): ?> work <?php else: ?><?= $page->uid() ?> <?php endif ?>">
   <div class="container">

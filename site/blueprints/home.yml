@@ -19,10 +19,6 @@ fields:
     label: Contact
     type: textarea
     
-  side:
-    label: Side
+  funstuff:
+    label: Fun Stuff
     type: textarea
-
-  text:
-    label: Text
-    type:  textarea

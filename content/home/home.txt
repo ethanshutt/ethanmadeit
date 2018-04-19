@@ -13,10 +13,10 @@ Text:
 About: 
 
 ##### Marketing and Design
-I've been gaining experience with SEO, Traffic Driven Analytics, and developing Content Strategies to help make Hunt Ford Chrysler one of the most popular automotive retail stores in Kentucky – all while assisting the current marketing team in tightening up a cohesive brand throughout our social media channels.
+I've been gaining experience with SEO, Traffic Driven Analytics, and developing Content Strategies with Hunt Ford Chrysler to keep the status as one of the most popular automotive retail stores in Kentucky – all while assisting the current marketing team in tightening up a cohesive brand throughout our social media channels.
 
 ##### Web and Brand Identity
-I've assisted numerous clients with brand refreshes and all-new logotypes as well as preparing their brand for an increased presence on the web. I've also designed and developed websites for clients to generate new business and increase 
+I've assisted numerous clients with brand refreshes and all-new logotypes as well as preparing their brand for an increased presence on the web. I've also designed and developed websites for clients to generate new business and provide more information in a new way.
 
 ##### Selected Clients
  - Farmers Hardware of Logan County, Kentucky
@@ -24,9 +24,20 @@ I've assisted numerous clients with brand refreshes and all-new logotypes as wel
  - Logan County Chamber of Commerce
  - Industrial Project and Design
 
+##### Video Editing and Production
+I dreamed of working in film as a kid, which initially prompted me to go to art school. I ended up falling in love with design, but I still keep with dream by learning some video editing and motion design skills in my spare time. I've gotten lucky to use these on a day to day basis with (link: /work/to-drive-sales text: Hunt Ford Chrysler).
+
+(link: /about/ text: More About Me class: button)
+
 ----
 
-Contact: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a mattis purus. Cras pretium risus in eleifend pulvinar. Interdum et malesuada fames ac ante ipsum primis in faucibus. In quis lectus et eros bibendum accumsan id id lorem. In tellus nisl, aliquet a mauris sed, venenatis tincidunt turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus dictum nisl a pretium hendrerit. Morbi ultricies placerat turpis non imperdiet. Sed at ex at velit ultricies finibus at eget est. Curabitur ex arcu, lobortis in dignissim eget, consequat vitae felis. In rutrum sapien tellus, vel accumsan sapien blandit eget. Vestibulum in velit a sapien tristique eleifend sit amet eget nisi. Vivamus lobortis non arcu sit amet porttitor. Mauris sapien ipsum, elementum eu dapibus sit amet, tincidunt in metus.
+Contact: 
+
+<div markdown="1" class="social-list"> 
+ (email: ethan@ethanmade.it text: Email)
+ (twitter: ethanmadeit text: Twitter)
+(link: http://github.com/ethanshutt text: GitHub)
+</div>
 
 ----
 

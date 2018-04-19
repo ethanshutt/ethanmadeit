@@ -21,6 +21,10 @@ fields:
     label: Colophon
     type: textarea
     
+  email: 
+    label: Email
+    type: text
+    
   twitter:
     label: Twitter
     type: text

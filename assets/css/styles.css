@@ -79,6 +79,7 @@ p {
   font-size: 1.4em;
   margin: 0 0 2.5em 0;
   font-family: 'skolar-latin', serif;
+  letter-spacing: .01em;
 }
 .logo-link {
   color: #181818;
@@ -131,7 +132,7 @@ p {
   font-size: 1em;
 }
 .sidebar ul, .sidebar ol {
-  margin-bottom: 1.5em;
+  margin: 0 1.5em 1.5em 1.5em;
 }
 .site-footer p {
   color: #8c8c8c;
@@ -178,7 +179,7 @@ hr::before{
   text-align: center;
 }
 /*  Text Helpers */
-small {
+small, .small {
   font-size: .8em;
   line-height: 1.6;
 }
@@ -232,13 +233,13 @@ figure img {
   float: left;
   width: 60%;
   margin-left: -20%;
-  padding-right: 1.5em;
+  padding-right: 2.5em;
 }
 .float-right {
   float: right;
   width: 60%;
   margin-right: -20%;
-  padding-left: 1.5em;
+  padding-left: 2.5em;
 }
 .float-left:after, .float-right:after {
   clear: both;
@@ -249,7 +250,8 @@ figure img {
 }
 /* Lists */
 .content ul, .content ol, .content dl, .content table {
-  margin: 0 2em 1.5em;
+  margin: 0 1.5em 2.5em;
+  font-size: 1.4em;
 }
 .content ul ul, .content  ol ul, .content ol ol {
   line-height: 1.9;
@@ -258,13 +260,10 @@ figure img {
 .content li {
   margin: 0 1em;
 }
-li {
-  list-style: none;
-}
-.content ul li {
+ul li {
   list-style: disc;
 }
-.content ol li {
+ol li {
   list-style: decimal;
 }
 /* Tables */
@@ -317,6 +316,7 @@ label {
   border: 1px solid #343434;
   border-radius: 8px;
   color: #343434;
+  font-family: freight-sans-pro, sans-serif;
   font-weight: 600;
   font-size: 1em;
   text-transform: uppercase;
@@ -434,9 +434,15 @@ section {
 .site-footer {
   padding: 6em 0 3em 0;
 }
-.footer-links, .social-list {
+.social-list-item, .footer-link-item {
+  list-style: none;
+}
+.footer-links, .social-links {
   display: inline-block;
   padding-right: 2em;
   width: 30%;
   vertical-align: top;
+}
+.social-list a {
+  font-family: freight-sans-pro, sans-serif;
 }

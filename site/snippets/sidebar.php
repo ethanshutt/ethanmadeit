@@ -1,14 +1,16 @@
 <div class="sidebar">
   <?php if($page->isHomepage()): ?>
-    <h3 class="section-title">Recently</h3>
     <section class="about-home">
+      <h3 class="section-title">Recently</h3>
       <?= $page->about()->kirbytext() ?>
     </section>
     <section class="contact">
+      <h3 class="section-title">Get in Touch</h3>
       <?= $page->contact()->kirbytext() ?>
     </section>
     <section class="for-fun">
-      <?= $page->side()->kirbytext() ?>
+      <h3 class="section-title">Fun Stuff</h3>
+      <?= $page->funstuff()->kirbytext() ?>
     </section>
 
   <?php else: ?>

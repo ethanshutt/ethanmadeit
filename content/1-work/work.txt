@@ -8,6 +8,12 @@ Text: This portfolio layout might be used to showcase your latest design work, a
 
 Sidebar: 
 
+This is a collection of some of the work that I have made recently. It isn't in any exact order but the top portion is usually much more recent.
+
+I'm a skilled print and web designer who especially loves diving into some of the finer details of typography. Some of my work has been in a (link: work/for-publication text: publication) setting as well as for (link: work/for-space text: traditional) (link: work/for-a-historic-team text: screen-printing.)
+
+Click more info to see more photos and information about any of the work that I have done.
+
 ----
 
-Intro: # I make things for print and the web.
+Intro: # I'm a designer who enjoys making things for print and the web. Check out my work below.

@@ -1,0 +1,46 @@
+Title: Logan County Public Library
+
+----
+
+Text: 
+
+## A more modern library
+
+There were only a handful of requirements for the logo redesign:
+ 1. Modern and clean
+ 2. Recognizable on a larger scale
+ 3. Include a book in some capacity
+
+The idea of using the outline of the county in the design was brought up in order to distinguish from other states' libraries.
+
+Since the Logan County Public Library (of Russellville, Kentucky) was an active member of the American Library Association, they often get mistaken for one of the other 10 states that have a Logan County.
+(image: logan-county-public-library-early-sketches.jpg caption: Preliminary Sketches)
+I ultimately suggested two main directions. A bookshelf to mimic the outline of the county, and a series of standing books visible by their spine.
+
+Below are early copies of both.
+(image: logan-county-public-library-logo-drafts.png class: content-width)
+
+***
+(image: logan-county-public-library-logo-county-selection.png class: float-right)
+## Moving onward
+We chose to move forward in the direction of the standing books, due to technical concerns and preferences.
+
+In order to achieve the recognizability and include the county in the mark, I filled the counter of the “p” with the shape.
+(image: logo-case-study-03.jpg class: centered caption: Testing a light-on-dark version for potential printing)
+
+I also softened edges of all letters and book corners to create a much less *aggressive* feeling when scaling the logo to larger sizes.
+
+***
+(image: logo-background.jpg class: content-width)
+
+----
+
+Type: Logo Design
+
+----
+
+Sidebar: The Logan County Public Library has been a staple of the Russellville, KY community since 1967. In fact, its original location on 201 South Sixth Street was located directly behind the house that I grew up in. Their relocation to a (link: http://www.bgdailynews.com/news/logan-county-public-library-seeks-m-loan-for-new-facility/article_d5c51892-c8bb-526d-8a64-82175276e0e5.html text: brand new, state-of-the-art building) in 2013 was one of Russellville's brighter moments. They approached me to help create a logo that would match their increasing modern identity, and I couldn't have been more honored.
+
+----
+
+Preview: I helped create a logo that would match the new look and feel of an important piece of Russellville, KY.

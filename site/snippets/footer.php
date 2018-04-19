@@ -10,7 +10,7 @@
       </li>
       <?php endforeach ?>
     </ul>
-    <ul class="social-list">
+    <ul class="footer-links">
       <li class="social-list-item"><a href="<?= $site->twitter() ?>">Twitter</a></li>
       <li class="social-list-item"><a href="<?= $site->instagram() ?>">Instagram</a></li>
       <li class="social-list-item"><a href="<?= $site->github() ?>">GitHub</a></li>

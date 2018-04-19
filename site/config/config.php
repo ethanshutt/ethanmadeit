@@ -6,7 +6,7 @@ License Setup
 ---------------------------------------
 */
 
-c::set('license', 'put your license key here');
+c::set('license', 'K2-PERSONAL-af03400998bec668deb4cb05b5033420');
 
 /*
 ---------------------------------------
