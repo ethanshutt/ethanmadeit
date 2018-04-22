@@ -8,10 +8,14 @@ Year: 2012
 
 Text: 
 
-(image: logocolor.png class: centered)
+(image: header.jpg)
+(image: logocolor.png)
 (image: logoplay.jpg)
-(image: product-illustrations.jpg class: content-width)
-(image: illustration-vinyl.jpg class: float-right)
+(image: website-1.jpg)
+(image: product-illustrations.jpg)
+(image: illustration-vinyl.jpg)
+(image: tentbox.jpg)
+(image: sleeping-bag.jpg)
 
 ----
 

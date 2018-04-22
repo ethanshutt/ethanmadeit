@@ -14,6 +14,16 @@
   <?= js($js->url()) ?>
   <?php endforeach ?>
   <?= css('assets/css/styles.css') ?>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105496927-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-105496927-1');
+  </script>
 
   <title><?= $site->title() ?> - <?= $page->title() ?></title>
 </head>

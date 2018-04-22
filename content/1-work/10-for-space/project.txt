@@ -15,3 +15,7 @@ Sidebar:
 ----
 
 Text: 
+
+(image: finalproduct.jpg)
+(image: lower-text.jpg)
+(image: texture-detail.jpg)

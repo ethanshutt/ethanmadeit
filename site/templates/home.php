@@ -7,11 +7,11 @@
     </div>
     <a class="button" href="/work">See More Work..</a>
   </section>
-  <section class="writing-homepage">
+  <!-- <section class="writing-homepage">
     <h3 class="section-title">Writing</h3>
-    <?php snippet('articlelist') ?>
+    < snippet('articlelist') ?>
     <a class="button" href="/writing">Find Other Articles</a>
-  </section>
+  </section> -->
 </div>
 <?php snippet ('sidebar') ?>
 <?php snippet('footer') ?>
