@@ -99,8 +99,13 @@ p {
 .big-text {
   color: #343434;
   display: block;
-  font-size: 1.4em;
+  font-size: 1.1em;
   line-height: 1.9;
+}
+@media (min-width: 800px) {
+  .big-text {
+    font-size: 1.4em;
+  }
 }
 .big-text h1 {
   font-weight: normal;
@@ -231,14 +236,12 @@ figure img {
 }
 .float-left {
   float: left;
-  width: 60%;
-  margin-left: -20%;
+  width: 40%;
   padding-right: 2.5em;
 }
 .float-right {
   float: right;
-  width: 60%;
-  margin-right: -20%;
+  width: 40%;
   padding-left: 2.5em;
 }
 .float-left:after, .float-right:after {
@@ -247,6 +250,27 @@ figure img {
   display: block;
   height: 0;
   overflow: hidden;
+}
+@media (min-width: 800px) {
+  .float-left {
+    float: left;
+    width: 60%;
+    margin-left: -20%;
+    padding-right: 2.5em;
+  }
+  .float-right {
+    float: right;
+    width: 60%;
+    margin-right: -20%;
+    padding-left: 2.5em;
+  }
+  .float-left:after, .float-right:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
 }
 /* Lists */
 .content ul, .content ol, .content dl, .content table {
@@ -362,15 +386,11 @@ label {
   margin-bottom: 4em; 
 }
 .sidebar, .right {
-  display: inline-block;
-  width: 30%;
-  padding-left: 10%;
-  vertical-align: top;
+  display: block;
+  margin-bottom: 3em;
 }
 .content, .left {
-  display: inline-block;
-  width: 55%;
-  vertical-align: top;
+  display: block;
 }
 .about .sidebar, .writing .sidebar, .article .sidebar, .work .sidebar {
   padding-left: 0;
@@ -378,6 +398,19 @@ label {
 }
 section {
   margin: 0 0 3em 0;
+}
+@media (min-width: 800px) {
+  .sidebar, .right {
+    display: inline-block;
+    width: 30%;
+    padding-left: 10%;
+    vertical-align: top;
+  }
+  .content, .left {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+  }
 }
 /* Page-Specific Styling */
 .about .big-text {
