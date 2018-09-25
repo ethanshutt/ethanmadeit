@@ -15,3 +15,5 @@ Kirby Configuration
 */
 
 c::set('markdown.extra', true);
+
+c::set('debug', false);

@@ -1,6 +1,5 @@
 <?php
 $projects = page('work')->children()->visible();
-if(isset($limit)) $projects = $projects->limit($limit);
 ?>
 
   <?php $n=0; foreach($projects as $project): $n++; ?>
