@@ -25,6 +25,12 @@ module.exports = function (eleventyConfig) {
         ].reverse();
     });
 
+    eleventyConfig.addCollection('projects', collection => {
+        return [
+            ...collection.getFilteredByGlob('./src/work/*.md').filter(livePosts)
+        ].reverse();
+    });
+
     eleventyConfig.addCollection('postFeed', collection => {
         return [...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)]
             .reverse()

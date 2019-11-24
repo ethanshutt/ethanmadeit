@@ -11,6 +11,10 @@
         {
             "text": "Posts",
             "url": "/posts"
+        },
+        {
+            "text": "Work",
+            "url": "/work"
         }
     ]
 }
