@@ -5,9 +5,10 @@ title: post
 <html lang="en">
     {% include "head.njk" %}
     <body>
+        {% include "navigation.njk" %}
         <main class="container">
-        <h1 class="no-margin-bottom">{{ title }}</h1>
-        <time class="postlist-date no-margin-top" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+            <h1 class="no-margin-bottom">{{ title }}</h1>
+            <time class="postlist-date no-margin-top" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
         
         {{ content | safe }}
                 
