@@ -1,0 +1,10 @@
+{
+    "title": "Journal",
+    "description": "Journal is a lightweight Eleventy starter kit.",
+    "url": "https://site-url.com",
+    "author": {
+        "email": "email@email.com",
+        "name": "First Last"
+    },
+    "maxPostsPerPage": 3
+}
