@@ -104,6 +104,8 @@ body {
   font-family: var(--font-primary);
   font-size: var(--default-size);
   line-height: var(--default-line-height);
+  margin: 0;
+  padding: 0;
 }
 
 /* 

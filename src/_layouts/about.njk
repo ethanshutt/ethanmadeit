@@ -1,13 +1,17 @@
 ---
-title: base
+title: about
 ---
 <!DOCTYPE html>
 <html lang="en">
     {% include "head.njk" %}
     <body>
+        <header class="no-margin-top">
+            <img src="/assets/images/ethanshutt-feeling-green.jpg" class="responsive-img" alt="Ethan Shutt">
+        </header>
         <main class="container">
         {{ content | safe }}
         </main>
+        {% include "footer.njk" %}
         <!-- Main JS -->
         <script src="{{ 'assets/scripts/main.js' | url }}"></script>
         <!-- Individual Plugins -->

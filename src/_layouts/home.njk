@@ -1,0 +1,24 @@
+---
+title: home
+---
+<!DOCTYPE html>
+<html lang="en">
+    {% include "head.njk" %}
+    <body>
+        <header class="hero">
+            <div class="container no-margin-top">                
+                <img src="assets/images/ethanshutt-feeling-green.jpg" class="responsive-img" alt="Ethan Shutt">
+                <div id="intro-content">
+                    {{ content | safe }}
+                </div>
+            </div>
+        </header>
+        <main class="container">
+        {% include "postslist.njk" %}
+        </main>
+        <!-- Main JS -->
+        <script src="{{ 'assets/scripts/main.js' | url }}"></script>
+        <!-- Individual Plugins -->
+
+    </body>
+</html>

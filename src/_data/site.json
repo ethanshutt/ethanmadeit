@@ -1,10 +1,10 @@
 {
-    "title": "Journal",
-    "description": "Journal is a lightweight Eleventy starter kit.",
-    "url": "https://site-url.com",
+    "title": "Ethan Made it",
+    "description": "Ethan Shutt is a designer working for print and the web.",
+    "url": "https://ethanmade.it",
     "author": {
-        "email": "email@email.com",
-        "name": "First Last"
+        "email": "ethan@ethanmade.it",
+        "name": "Ethan Shutt"
     },
     "maxPostsPerPage": 3
 }
