@@ -4,7 +4,7 @@
 ** Set font size to base of 16px
 */
 html { 
-  font-size: 16px; 
+  font-size: 10px; 
 }
 
 /* 
@@ -63,16 +63,17 @@ table {
 
 :root {
   /* Typography */
-  --default-size: 1rem;
-  --text-scale: 1.125;
+  --default-size: 1.6rem;
+  --text-scale: 1.2;
   --default-line-height: 1.4;
-  --text-xs: calc(var(--default-size) / var(--text-scale));
-  --text-sm: var(--default-size);
-  --text-md: calc(var(--text-sm) * var(--text-scale));
-  --text-lg: calc(var(--text-md) * var(--text-scale));
-  --text-xl: calc(var(--text-lg) * var(--text-scale));
-  --text-xxl: calc(var(--text-xl) * var(--text-scale));
-  --text-xxxl: calc(var(--text-xxl) * var(--text-scale));
+  --text-size-1: calc(var(--default-size) / var(--text-scale));
+  --text-size-2: var(--default-size);
+  --text-size-3: calc(var(--text-size-2) * var(--text-scale));
+  --text-size-4: calc(var(--text-size-3) * var(--text-scale));
+  --text-size-5: calc(var(--text-size-4) * var(--text-scale));
+  --text-size-6: calc(var(--text-size-5) * var(--text-scale));
+  --text-size-7: calc(var(--text-size-6) * var(--text-scale));
+  --text-size-8: calc(var(--text-size-7) * var(--text-scale));
   --font-primary: "Rubik", sans-serif;
   --font-monospace: monospace;
   --font-color: #343434;
@@ -146,48 +147,150 @@ h5:not(:first-child) {
 }
 
 h1 {
-  font-size: var(--text-xl);
+  font-size: var(--text-size-5);
 }
 h2 {
-  font-size: var(--text-lg);
+  font-size: var(--text-size-4);
 }
 h3 {
-  font-size: var(--text-md);
+  font-size: var(--text-size-3);
 }
 h4 {
-  font-size: var(--text-sm);
+  font-size: var(--text-size-2);
 }
 h5 {
-  font-size: var(--text-xs);
+  font-size: var(--text-size-1);
 }
 
 p {
-  font-size: var(--text-sm);
+  font-size: var(--text-size-2);
 }
 
 p+p {
   margin-top: var(--spacing-md);
 }
 
-.intro--content p {
-  font-size: var(--text-lg);
+.text-preset-1 {
+  font-size: var(--text-size-1);
+  font-weight: normal;
+}
+
+.text-preset-2 {
+  font-size: var(--text-size-2);
+  font-weight: normal;
+}
+
+.text-preset-3 {
+  font-size: var(--text-size-3);
+  font-weight: normal;
+}
+
+.text-preset-4 {
+  font-size: var(--text-size-4);
+  font-weight: normal;
+}
+
+.text-preset-5 {
+  font-size: var(--text-size-5);
+  font-weight: normal;
+}
+
+.text-preset-6 {
+  font-size: var(--text-size-6);
+  font-weight: normal;
+}
+
+.text-preset-7 {
+  font-size: var(--text-size-7);
+  font-weight: normal;
+}
+
+.text-preset-8 {
+  font-size: var(--text-size-8);
+  font-weight: normal;
+}
+
+.text-preset-1--bold {
+  font-size: var(--text-size-1);
+  font-weight: bold;
+}
+
+.text-preset-2--bold {
+  font-size: var(--text-size-2);
+  font-weight: bold;
+}
+
+.text-preset-3--bold {
+  font-size: var(--text-size-3);
+  font-weight: bold;
+}
+
+.text-preset-4--bold {
+  font-size: var(--text-size-4);
+  font-weight: bold;
+}
+
+.text-preset-5--bold {
+  font-size: var(--text-size-5);
+  font-weight: bold;
+}
+
+.text-preset-6--bold {
+  font-size: var(--text-size-6);
+  font-weight: bold;
+}
+
+.text-preset-7--bold {
+  font-size: var(--text-size-7);
+  font-weight: bold;
+}
+
+.text-preset-8--bold {
+  font-size: var(--text-size-8);
+  font-weight: bold;
 }
 
 @media (min-width: 600px) {
   h1 {
-    font-size: var(--text-xxxl);
+    font-size: var(--text-size-7);
   }
   h2 {
-    font-size: var(--text-xl);
+    font-size: var(--text-size-6);
   }
   h3 {
-    font-size: var(--text-lg);
+    font-size: var(--text-size-5);
   }
   h4 {
-    font-size: var(--text-md);
+    font-size: var(--text-size-4);
   }
   h5 {
-    font-size: var(--text-sm);
+    font-size: var(--text-size-3);
+  }
+  p,
+  ul li {
+    font-size: var(--text-size-2);
+  }
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: var(--text-size-8);
+  }
+  h2 {
+    font-size: var(--text-size-7);
+  }
+  h3 {
+    font-size: var(--text-size-6);
+  }
+  h4 {
+    font-size: var(--text-size-5);
+  }
+  h5 {
+    font-size: var(--text-size-4);
+  }
+  p,
+  ul li {
+    font-size: var(--text-size-3);
   }
 }
 
@@ -232,7 +335,7 @@ kbd {
 sup,
 sub,
 small {
-  font-size: var(--text-xs);
+  font-size: var(--text-size-1);
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -255,7 +358,7 @@ pre, blockquote {
 
 pre {
   overflow-x: scroll;
-  font-size: var(--text-xs);
+  font-size: var(--text-size-1);
 }
 
 blockquote {
@@ -285,21 +388,16 @@ hr {
   }
 
   pre {
-    font-size: var(--text-sm);
+    font-size: var(--text-size-2);
   }
   
   blockquote {
-    font-size: var(--text-md);
+    font-size: var(--text-size-3);
   }
 
   blockquote cite {
     display: block;
-    font-size: var(--text-sm);
-  }
-
-  hr {
-    width: 100%;
-    margin: var(--spacing-lg) 0;
+    font-size: var(--text-size-2);
   }
 }
 
@@ -339,7 +437,7 @@ ol li ol {
 table {
   width: 100%;;
   border-spacing: 0;
-  font-size: var(--text-xs);
+  font-size: var(--text-size-1);
   margin: 0;
   line-height: 1.6;
   white-space: nowrap;
@@ -364,7 +462,7 @@ tfoot th {
 td {
   border-bottom: 1px solid #eee;
   color: #404040;
-  font-size: var(--text-sm);
+  font-size: var(--text-size-2);
 }
 
 th,
@@ -383,7 +481,7 @@ td+td {
     margin: var(--spacing-lg) 0;
 }
   table {
-    font-size: var(--text-sm);
+    font-size: var(--text-size-2);
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
@@ -567,6 +665,7 @@ label {
   align-items: center;
   justify-content: center;
 }
+
 /* 
 ** Navigation
 */
@@ -591,6 +690,7 @@ label {
 .nav--item {
   display: inline-block;
   margin: 0 1em 0 0;
+  padding: 0;
 }
 
 .nav--item:last-of-type {

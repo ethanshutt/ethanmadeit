@@ -1,13 +1,11 @@
 {% if navigation.items %}
-<header>
-  <nav class="nav">
-    <ul class="nav__list">
-      {% for item in navigation.items %}
-        <li class="nav--item">
-          <a href="{{ item.url }}">{{ item.text }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </nav>
-</header>
+<nav class="nav">
+  <ul class="nav__list">
+    {% for item in navigation.items %}
+      <li class="nav--item text-preset-2">
+        <a href="{{ item.url }}">{{ item.text }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
 {% endif %}
