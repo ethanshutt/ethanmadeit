@@ -55,6 +55,11 @@ table {
 }
 
 /* 
+** Import Fonts from Google
+*/
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Rubik:400,700&display=swap');
+
+/* 
 ** Variable Setup
 ** See documentation for more information.
 */
@@ -71,8 +76,8 @@ table {
   --text-xl: calc(var(--text-lg) * var(--text-scale));
   --text-xxl: calc(var(--text-xl) * var(--text-scale));
   --text-xxxl: calc(var(--text-xxl) * var(--text-scale));
-  --font-primary: sans-serif;
-  --font-secondary: serif;
+  --font-primary: 'Rubik', sans-serif;
+  --font-secondary: 'Calistoga', sans-serif;
   --font-monospace: monospace;
   --font-color: #343434;
 
@@ -107,6 +112,11 @@ body {
   margin: 0;
   padding: 0;
 }
+#home {
+  background: url('../images/home-background.jpg') no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
 
 /* 
 ** Layout
@@ -128,6 +138,14 @@ body {
   .container {
     max-width: var(--container-desktop);
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-secondary);
 }
 
 h1:not(:first-child),
