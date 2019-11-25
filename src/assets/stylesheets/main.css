@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap');
+
 /* 
 ** Set font size to base of 16px
 */
@@ -55,11 +57,6 @@ table {
 }
 
 /* 
-** Import Fonts from Google
-*/
-@import url('https://fonts.googleapis.com/css?family=Calistoga|Rubik:400,700&display=swap');
-
-/* 
 ** Variable Setup
 ** See documentation for more information.
 */
@@ -67,7 +64,7 @@ table {
 :root {
   /* Typography */
   --default-size: 1rem;
-  --text-scale: 1.2;
+  --text-scale: 1.125;
   --default-line-height: 1.4;
   --text-xs: calc(var(--default-size) / var(--text-scale));
   --text-sm: var(--default-size);
@@ -76,8 +73,7 @@ table {
   --text-xl: calc(var(--text-lg) * var(--text-scale));
   --text-xxl: calc(var(--text-xl) * var(--text-scale));
   --text-xxxl: calc(var(--text-xxl) * var(--text-scale));
-  --font-primary: 'Rubik', sans-serif;
-  --font-secondary: 'Calistoga', sans-serif;
+  --font-primary: "Rubik", sans-serif;
   --font-monospace: monospace;
   --font-color: #343434;
 
@@ -140,14 +136,6 @@ body {
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: var(--font-secondary);
-}
-
 h1:not(:first-child),
 h2:not(:first-child),
 h3:not(:first-child),
@@ -178,6 +166,10 @@ p {
 
 p+p {
   margin-top: var(--spacing-md);
+}
+
+.intro--content p {
+  font-size: var(--text-lg);
 }
 
 @media (min-width: 600px) {
@@ -317,12 +309,15 @@ hr {
 
 ul,
 ol {
+  margin: 0;
+  padding: 0 1em;
   line-height: calc(var(--default-line-height) * var(--text-scale));
 }
 
 ul li,
 ol li {
   margin: 0;
+  padding: 1em 0;
 }
 
 ul li ul, 
