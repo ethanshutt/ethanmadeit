@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap');
-
-/* 
+@import url("https://use.typekit.net/zni6ien.css");/* 
 ** Set font size to base of 16px
 */
 html { 
@@ -74,9 +72,10 @@ table {
   --text-size-6: calc(var(--text-size-5) * var(--text-scale));
   --text-size-7: calc(var(--text-size-6) * var(--text-scale));
   --text-size-8: calc(var(--text-size-7) * var(--text-scale));
-  --font-primary: "Rubik", sans-serif;
+  --font-sans: benton-sans, sans-serif;
+  --font-serif:  miller-text, serif;
   --font-monospace: monospace;
-  --font-color: #343434;
+  --font-color: #3b393d;
 
   /* Layout */
   --container-mobile: 600px;
@@ -91,9 +90,12 @@ table {
 
   /* Colors */
   --background: #fff;
-  --primary: #1fd3ac;
+  --cyan: #418bd1;
+  --magenta: #be569c;
+  --yellow: #facc4f;
+  --black: #222024;
   --secondary: #0250bc;
-  --accent: #eebe3b;
+  --accent: var(--yellow);
   --error: #e46e59;
   --success: #1ebe5c;
   --focus: #ccc;
@@ -103,7 +105,7 @@ table {
 body {
   background: var(--background);
   color: var(--font-color);
-  font-family: var(--font-primary);
+  font-family: var(--font-serif);
   font-size: var(--default-size);
   line-height: var(--default-line-height);
   margin: 0;
@@ -232,12 +234,12 @@ p+p {
 a {
   color: inherit;
   text-decoration: underline;
-  text-decoration-color: var(--primary);
+  text-decoration-color: var(--cyan);
   text-decoration-skip-ink: auto;
 }
 
 a:hover, a:active, a:focus {
-  color: var(--primary);
+  color: var(--cyan);
 }
 
 mark,
@@ -609,6 +611,7 @@ label {
   width: 100%;
   margin: 1em auto;
   padding: 0;
+  font-family: var(--font-sans);
 }
 
 .nav__list {
@@ -626,11 +629,16 @@ label {
   display: inline-block;
   margin: 0 1em 0 0;
   padding: 0;
+  font-size: var(--text-size-2);
 }
 
 .nav--item:last-of-type {
   margin: 0;
   padding: 0 1em 0 0;
+}
+
+footer .nav--item:last-of-type {
+  padding: 0;
 }
 
 .nav--item a {
