@@ -146,20 +146,25 @@ h5:not(:first-child) {
   margin-top: var(--spacing-lg);
 }
 
-h1 {
+h1,
+.h1 {
+  font-size: var(--text-size-6);
+}
+h2,
+.h2 {
   font-size: var(--text-size-5);
 }
-h2 {
+h3,
+.h3 {
   font-size: var(--text-size-4);
 }
-h3 {
+h4,
+.h4 {
   font-size: var(--text-size-3);
 }
-h4 {
+h5,
+.h5 {
   font-size: var(--text-size-2);
-}
-h5 {
-  font-size: var(--text-size-1);
 }
 
 p {
@@ -170,100 +175,25 @@ p+p {
   margin-top: var(--spacing-md);
 }
 
-.text-preset-1 {
-  font-size: var(--text-size-1);
-  font-weight: normal;
-}
-
-.text-preset-2 {
-  font-size: var(--text-size-2);
-  font-weight: normal;
-}
-
-.text-preset-3 {
-  font-size: var(--text-size-3);
-  font-weight: normal;
-}
-
-.text-preset-4 {
-  font-size: var(--text-size-4);
-  font-weight: normal;
-}
-
-.text-preset-5 {
-  font-size: var(--text-size-5);
-  font-weight: normal;
-}
-
-.text-preset-6 {
-  font-size: var(--text-size-6);
-  font-weight: normal;
-}
-
-.text-preset-7 {
-  font-size: var(--text-size-7);
-  font-weight: normal;
-}
-
-.text-preset-8 {
-  font-size: var(--text-size-8);
-  font-weight: normal;
-}
-
-.text-preset-1--bold {
-  font-size: var(--text-size-1);
-  font-weight: bold;
-}
-
-.text-preset-2--bold {
-  font-size: var(--text-size-2);
-  font-weight: bold;
-}
-
-.text-preset-3--bold {
-  font-size: var(--text-size-3);
-  font-weight: bold;
-}
-
-.text-preset-4--bold {
-  font-size: var(--text-size-4);
-  font-weight: bold;
-}
-
-.text-preset-5--bold {
-  font-size: var(--text-size-5);
-  font-weight: bold;
-}
-
-.text-preset-6--bold {
-  font-size: var(--text-size-6);
-  font-weight: bold;
-}
-
-.text-preset-7--bold {
-  font-size: var(--text-size-7);
-  font-weight: bold;
-}
-
-.text-preset-8--bold {
-  font-size: var(--text-size-8);
-  font-weight: bold;
-}
-
 @media (min-width: 600px) {
-  h1 {
+  h1,
+  .h1 {
     font-size: var(--text-size-7);
   }
-  h2 {
+  h2,
+  .h2 {
     font-size: var(--text-size-6);
   }
-  h3 {
+  h3,
+  .h3 {
     font-size: var(--text-size-5);
   }
-  h4 {
+  h4,
+  .h4 {
     font-size: var(--text-size-4);
   }
-  h5 {
+  h5,
+  .h5 {
     font-size: var(--text-size-3);
   }
   p,
@@ -273,19 +203,24 @@ p+p {
 }
 
 @media (min-width: 800px) {
-  h1 {
+  h1,
+  .h1 {
     font-size: var(--text-size-8);
   }
-  h2 {
+  h2,
+  .h2 {
     font-size: var(--text-size-7);
   }
-  h3 {
+  h3,
+  .h3 {
     font-size: var(--text-size-6);
   }
-  h4 {
+  h4,
+  .h4 {
     font-size: var(--text-size-5);
   }
-  h5 {
+  h5, 
+  .h5 {
     font-size: var(--text-size-4);
   }
   p,
