@@ -6,17 +6,17 @@ title: home
     {% include "head.njk" %}
     <body id="home"">
         {% include "navigation.njk" %}
-        <main class="container grid">
-        <header class="intro margin-bottom">
-            <div class="no-margin-top">                
-                <img src="assets/images/headshot-flannel-cmyk.png" class="responsive-img" alt="Ethan Shutt">
-                <div class="intro--content">
-                    {{ content | safe }}
+        <main class="container">
+            <header class="home__header grid">
+                <div class="intro">
+                    <img src="assets/images/headshot-flannel-cmyk-split.png" class="responsive-img" alt="Ethan Shutt">
                 </div>
-            </div>
-        </header>
-        {% include "postslist.njk" %}
+                <div class="intro--content">
+                        {{ content | safe }}
+                </div>
+            </header>
         </main>
+        {% include "postslist.njk" %}
         {% include "footer.njk" %}
         <!-- Main JS -->
         <script src="{{ 'assets/scripts/main.js' | url }}"></script>

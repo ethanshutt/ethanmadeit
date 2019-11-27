@@ -1,8 +1,8 @@
-<section>
+<section class="container">
 <h2 class="h4 no-margin-top">Most Recent</h2>
 {%- for post in collections.postFeed -%}
   <article class="margin-bottom">
-    <h3 class="h5 no-margin-bottom"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+    <h3 class="h5 no-margin-bottom font-sans"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
     <time class="text-preset-1 no-margin-top" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
   </article>
 {%- endfor -%}
