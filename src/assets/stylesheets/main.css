@@ -349,19 +349,26 @@ hr {
 ul,
 ol {
   margin: 0;
-  padding: 0 1em;
+  padding: 0 var(--spacing-md);
   line-height: calc(var(--default-line-height) * var(--text-scale));
 }
 
 ul li,
 ol li {
   margin: 0;
-  padding: 1em 0;
+  padding: 0 0 var(--spacing-sm) 0;
 }
 
 ul li ul, 
 ol li ol {
   margin: 0;
+}
+
+@media (min-width: 600px) {
+  ul,
+  ol {
+    padding: 0 var(--spacing-lg);
+  }
 }
 
 /* 
