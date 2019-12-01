@@ -1,0 +1,5 @@
+module.exports = {
+    author: "Ethan Shutt",
+    layout: "post.njk",
+    permalink: "/{{ page.fileSlug }}/"
+};

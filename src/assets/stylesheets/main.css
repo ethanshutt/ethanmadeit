@@ -245,6 +245,12 @@ a:hover, a:active, a:focus {
   line-height: 1;
 }
 
+.work a:hover {
+  background: none;
+  opacity: .7;
+  text-decoration: none;
+}
+
 mark,
 code,
 kbd {
@@ -356,7 +362,7 @@ ol {
 ul li,
 ol li {
   margin: 0;
-  padding: 0 0 var(--spacing-sm) 0;
+  padding: 0;
 }
 
 ul li ul, 

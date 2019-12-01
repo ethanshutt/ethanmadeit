@@ -1,9 +1,9 @@
 ---
 title: Knowledge informs Growth
-description: With the right mentality learning can act as a stepping stone for greater learning.
 date: 2019-02-23
+description: With the right mentality learning can act as a stepping stone for greater learning.
 tags: learning
-layout: post.njk
+layout: "post.njk"
 ---
 An instructor of mine gave me some very good advice when I was around 16 or 17. He told me that previous experiences will inform future experiences. It wasn't particularly new or groundbreaking but it made an impact on my thinking moving forward.
 

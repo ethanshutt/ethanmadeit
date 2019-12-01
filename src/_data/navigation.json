@@ -6,15 +6,15 @@
         },
         {
             "text": "About",
-            "url": "/about"
+            "url": "/personal"
         },
         {
-            "text": "Posts",
-            "url": "/posts"
+            "text": "Thoughts",
+            "url": "/think"
         },
         {
             "text": "Work",
-            "url": "/work"
+            "url": "/for"
         }
     ]
 }
