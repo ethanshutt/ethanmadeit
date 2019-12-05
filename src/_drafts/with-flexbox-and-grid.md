@@ -5,6 +5,13 @@ description: Taking the time to learn Flexbox and Grid
 tags: learning
 layout: "post.njk"
 ---
+Post To Do List
+----
+- Finish Writing Grid Portion
+- Define Key Terminology
+- Copy Edit
+
+
 Flexbox and CSS Grid have come out with much more impressive browser support over the last year or so which allows them to be effectively used in most production cases. 
 
 I have a feeling that as the support increases, learning to use the two and, more importantly, *when to use either of them* will be vital to working with the Front End.
@@ -20,12 +27,12 @@ I've briefly used both but only have a superficial understanding and would like 
 I was mostly right–Flexbox's main purpose is to **expand and contract items to fill free space**. Apparently, it is also better suited for components rather than large layouts – more on this later.
 
 ### Key Terminology
-- Main Axis
-- Main Start and End
-- Main Size
-- Cross Axis
-- Cross Start and End
-- Cross Size
+- **Main Axis**
+- **Main Start and End**
+- **Main Size**
+- **Cross Axis**
+- **Cross Start and End**
+- **Cross Size**
 
 Most of the work is done on the parent element, so we will start there. Let's be simple and just call it `.flex__container`.
 
@@ -216,6 +223,8 @@ Key Terminology:
 - **Grid Track**
 - **Cell**
 - **Area**
+
+
 
 ```css
 .grid__container {

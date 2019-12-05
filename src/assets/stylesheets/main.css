@@ -322,6 +322,10 @@ hr {
   background: var(--light-grey);
 }
 
+mark {
+  background: var(--yellow);
+}
+
 @media (min-width: 600px) {
   pre, blockquote {
     padding: var(--spacing-sm) var(--spacing-lg);
