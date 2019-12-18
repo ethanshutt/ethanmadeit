@@ -66,7 +66,7 @@ In my twenty-fifth year I aim to keep learning. One of my struggles in the past 
 - Further solidify my knowledge of HTML and CSS
 - Experiment with CMSs outside of Kirby and Wordpress
     - Craft
-    - Statmatic
+    - Statamic
     - Gatsby.js
     - Siteleaf
 
