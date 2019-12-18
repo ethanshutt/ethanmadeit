@@ -28,8 +28,7 @@ Through a method of modified bullet journaling I can now think much clearer abou
 While learning about intentionality, I discovered the harm of infinity pools. Infinity pools as described by Jake Knapp and John Zeratsky:
 
 > Infinity Pools are apps and other sources of endlessly replenishing content. If you can pull to refresh, it's an Infinity Pool. If it streams, it's an Infinity Pool. This always-available, always-new entertainment is your reward for the exhaustion of constant busyness.
-
-> *Make Time*
+> [*Make Time*](https://www.amazon.com/Make-Time-Focus-Matters-Every/dp/0525572422/ref=as_li_ss_tl?keywords=make+time&qid=1552223860&s=gateway&sr=8-1&linkCode=sl1&tag=maketimeblog-20&linkId=9239c35565c3ef2bdf0328cd048237fa&language=en_US)
 
 I've managed to reduce my phone screen time to around 50 minutes per day. Here are a few tactics I've adopted to get there.
 
