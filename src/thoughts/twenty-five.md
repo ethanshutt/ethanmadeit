@@ -57,7 +57,7 @@ I spent time developing new and old skills:
 
 In my twenty-fifth year I aim to keep learning. One of my struggles in the past has been to narrow my focus to a few select topics. Currently I'm looking forward to
 
-### Continue learning:
+#### Continue learning:
 
 - Front End Web Development
     - React
@@ -70,17 +70,17 @@ In my twenty-fifth year I aim to keep learning. One of my struggles in the past 
     - Gatsby.js
     - Siteleaf
 
-### Keep Sharing
+#### Keep Sharing
 
 - Create a monthly writing habit
 - Create and Edit some Video Content
 
-### Projects
+#### Projects
 
 - Informational Site on 2020 Electoral Candidates
 - Explore the importance of roles and teamwork
 
-### Travel and Explore
+#### Travel and Explore
 
 - Visit at least 2 new places in the US
 - More time outdoors
