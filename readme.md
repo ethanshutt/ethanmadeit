@@ -12,4 +12,4 @@ My hosting expired which means it is probably time for a restart here, so I'm go
 
 - **Simplify Layout:** If only for the first version–it just needs to work and work _well._ 
 
-To check out the rebuild process as it goes: (ethanmadeit.netlify.com)
+To check out the rebuild process as it goes: (http://ethanmadeit.netlify.com)
