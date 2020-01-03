@@ -72,9 +72,8 @@ table {
   --text-size-6: calc(var(--text-size-5) * var(--text-scale));
   --text-size-7: calc(var(--text-size-6) * var(--text-scale));
   --text-size-8: calc(var(--text-size-7) * var(--text-scale));
-  --font-sans: benton-sans, sans-serif;
-  --font-serif:  miller-text, serif;
-  --font-monospace: monospace;
+  --font-sans: skolar-sans-latin, sans-serif;
+  --font-monospace: courier-prime, monospace;
   --font-color: var(--black);
 
   /* Layout */
@@ -109,7 +108,7 @@ table {
 body {
   background: var(--background);
   color: var(--font-color);
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: var(--default-size);
   line-height: var(--default-line-height);
   margin: 0;
@@ -149,7 +148,7 @@ h2:not(:first-child),
 h3:not(:first-child),
 h4:not(:first-child),
 h5:not(:first-child) {
-  margin-top: var(--spacing-lg);
+  margin-top: var(--spacing-md);
 }
 
 h1,
@@ -174,6 +173,7 @@ h5,
 }
 
 p {
+  font-family: var(--font-sans);
   font-size: var(--text-size-2);
 }
 
@@ -280,6 +280,7 @@ blockquote {
 
 blockquote p {
   color: var(--grey);
+  font-style: italic;
 }
 
 code, pre {
@@ -287,7 +288,8 @@ code, pre {
 }
 
 code {
-  color: var(--grey);
+  color: var(--cyan);
+  font-size: 1.6rem;
 }
 
 pre, blockquote {
@@ -299,6 +301,10 @@ pre {
   color: var(--focus);
   overflow-x: scroll;
   font-size: var(--text-size-1);
+}
+
+pre code {
+  color: var(--grey);
 }
 
 blockquote {
@@ -615,14 +621,6 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.font-sans {
-  font-family: var(--font-sans);
-}
-
-.font-serif {
-  font-family: var(--font-serif);
 }
 
 /* 
