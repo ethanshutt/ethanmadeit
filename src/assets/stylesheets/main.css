@@ -72,12 +72,13 @@ table {
   --text-size-6: calc(var(--text-size-5) * var(--text-scale));
   --text-size-7: calc(var(--text-size-6) * var(--text-scale));
   --text-size-8: calc(var(--text-size-7) * var(--text-scale));
-  --font-sans: skolar-sans-latin, sans-serif;
-  --font-monospace: courier-prime, monospace;
+  --font-sans: lft-etica, sans-serif;
+  --font-serif: whitman, serif;
+  --font-monospace: monospace;
   --font-color: var(--black);
 
   /* Layout */
-  --container-mobile: 600px;
+  --container-mobile: 480px;
   --container-tablet: calc(var(--container-mobile) * 1.5);
   --container-desktop: calc(var(--container-tablet) * 1.5);
  
@@ -108,7 +109,7 @@ table {
 body {
   background: var(--background);
   color: var(--font-color);
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   font-size: var(--default-size);
   line-height: var(--default-line-height);
   margin: 0;
@@ -173,7 +174,7 @@ h5,
 }
 
 p {
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   font-size: var(--text-size-2);
 }
 
