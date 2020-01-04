@@ -78,7 +78,7 @@ table {
   --font-color: var(--black);
 
   /* Layout */
-  --container-mobile: 480px;
+  --container-mobile: 600px;
   --container-tablet: calc(var(--container-mobile) * 1.5);
   --container-desktop: calc(var(--container-tablet) * 1.5);
  
@@ -622,6 +622,14 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
 }
 
 /* 
