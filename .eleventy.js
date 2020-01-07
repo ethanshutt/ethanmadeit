@@ -21,17 +21,10 @@ module.exports = function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
     });
     
-    //Collections
-    eleventyConfig.addCollection('thoughts', collection => {
-        return [
-            ...collection.getFilteredByGlob('./src/thoughts/*.md').filter(livePosts)
-        ].reverse();
-    });
-    
-    eleventyConfig.addCollection('thoughtsShort', collection => {
-        return [...collection.getFilteredByGlob('./src/thoughts/*.md').filter(livePosts)]
+    //Collections    
+    eleventyConfig.addCollection('posts', collection => {
+        return [...collection.getFilteredByGlob('./src/writing/*.md').filter(livePosts)]
         .reverse()
-        .slice(0, site.maxPostsPerPage);
     });
     
     eleventyConfig.addCollection('projects', collection => {

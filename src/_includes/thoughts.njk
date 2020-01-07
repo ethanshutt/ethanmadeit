@@ -1,6 +1,0 @@
-{%- for post in collections.thoughts -%}
-<article class="margin-bottom">
-  <h3 class="text-preset-3 no-margin-bottom"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-  <time class="text-preset-1 no-margin-top" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-</article>
-{%- endfor -%}

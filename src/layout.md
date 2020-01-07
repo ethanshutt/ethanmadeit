@@ -12,12 +12,14 @@ Here's a rough idea of how I want the site URL to work
         - `/for/his-hometown`
         - `/for/the-local-library`
         - `/for/monster-mash`
-- `/think` (writing)
-    - `/think/about` (tags)
-    - `/from-2019-to-2020` (posts)
-    - `/pretty-far-with-html-css`
+- `/in-writing` (writing)
+    - `/in-writing/about` (tags)
+    - `/from-2019-to-2020` (post)
+    - `/pretty-far-with-html-css` (post)
+
+- `/with` (resources)
 
 - `/personal` (about)
-- `/talk` (contact)
+- `/to-talk` (contact)
 - `/shareable` (feed)
 - `/old` (archive)
