@@ -22,10 +22,17 @@ module.exports = function (eleventyConfig) {
     });
     
     //Collections    
-    eleventyConfig.addCollection('posts', collection => {
+    eleventyConfig.addCollection('recent', collection => {
         return [...collection.getFilteredByGlob('./src/writing/*.md').filter(livePosts)]
         .reverse()
+        .slice(0, site.maxRecentPosts);
     });
+
+    eleventyConfig.addCollection('archive', collection => {
+        return [...collection.getFilteredByGlob('./src/writing/*.md').filter(livePosts)]
+            .reverse()
+    });
+    
     
     eleventyConfig.addCollection('projects', collection => {
         return [

@@ -6,5 +6,5 @@
         "email": "ethan@ethanmade.it",
         "name": "Ethan Shutt"
     },
-    "maxPostsPerPage": 5
+    "maxRecentPosts": 3
 }

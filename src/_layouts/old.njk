@@ -1,0 +1,19 @@
+---
+title: old
+---
+<!DOCTYPE html>
+<html lang="en">
+    {% include "head.njk" %}
+    <body>
+        {% include "navigation.njk" %}
+        <main class="container">
+        {{ content | safe }}
+        {% include "archive.njk" %}
+        </main>
+        {% include "footer.njk" %}
+        <!-- Main JS -->
+        <script src="{{ 'assets/scripts/main.js' | url }}"></script>
+        <script src="{{ 'assets/scripts/prism.js' | url }}"></script>
+        <!-- Individual Plugins -->
+    </body>
+</html>
