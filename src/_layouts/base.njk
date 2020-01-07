@@ -4,7 +4,7 @@ title: base
 <!DOCTYPE html>
 <html lang="en">
     {% include "head.njk" %}
-    <body>
+    <body id="{{ template }}">
         {% include "navigation.njk" %}
         <main class="container">
         {{ content | safe }}
