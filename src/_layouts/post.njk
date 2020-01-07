@@ -1,22 +1,7 @@
 ---
+layout: base.njk
 title: post
 ---
-<!DOCTYPE html>
-<html lang="en">
-    {% include "head.njk" %}
-    <body>
-        {% include "navigation.njk" %}
-        <main class="container">
-            <h1 class="no-margin-bottom">{{ title }}</h1>
-            <time class="postlist-date no-margin-top" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-        
-        {{ content | safe }}
-                
-        </main>
-        {% include "footer.njk" %}
-        <!-- Main JS -->
-        <script src="{{ 'assets/scripts/main.js' | url }}"></script>
-        <!-- Individual Plugins -->
-
-    </body>
-</html>
+<h1 class="no-margin-bottom">{{ title }}</h1>
+<time class="postlist-date no-margin-top" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+{{ content | safe }}

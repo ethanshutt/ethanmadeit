@@ -7,6 +7,8 @@ module.exports = function (eleventyConfig) {
     const now = new Date();
     const livePosts = post => post.date <= now && !post.data.draft;
 
+    eleventyConfig.setDataDeepMerge(true);
+
     // PassThrough Folders
     eleventyConfig.addPassthroughCopy("src/assets/images");
     eleventyConfig.addPassthroughCopy("src/assets/stylesheets");
@@ -23,13 +25,13 @@ module.exports = function (eleventyConfig) {
     
     //Collections    
     eleventyConfig.addCollection('recent', collection => {
-        return [...collection.getFilteredByGlob('./src/writing/*.md').filter(livePosts)]
+        return [...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)]
         .reverse()
         .slice(0, site.maxRecentPosts);
     });
 
     eleventyConfig.addCollection('archive', collection => {
-        return [...collection.getFilteredByGlob('./src/writing/*.md').filter(livePosts)]
+        return [...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)]
             .reverse()
     });
     

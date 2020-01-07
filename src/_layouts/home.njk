@@ -1,25 +1,8 @@
 ---
+layout: base.njk
 title: home
 ---
-<!DOCTYPE html>
-<html lang="en">
-    {% include "head.njk" %}
-    <body id="home"">
-        {% include "navigation.njk" %}
-        <main class="container">
-            <header class="home-header">
-                    {{ content | safe }}
-            </header>
-            <header class="post-list__header">
-                <h2 class="post-list__header-title">Recent posts</h2>
-                <a class="post-list__header-link" href="/old">View All</a>
-            </header>
-            {% include "posts.njk" %}
-        </main>
-        {% include "footer.njk" %}
-        <!-- Main JS -->
-        <script src="{{ 'assets/scripts/main.js' | url }}"></script>
-        <!-- Individual Plugins -->
-
-    </body>
-</html>
+<header class="home-header">
+    {{ content | safe }}
+</header>
+{% include "posts.njk" %}
