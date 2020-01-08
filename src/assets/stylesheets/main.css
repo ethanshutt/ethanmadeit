@@ -353,8 +353,25 @@ mark {
 }
 
 .home-header {
+  min-height: 50vh;
   margin-bottom: var(--spacing-lg);
-  height: 50vh;
+}
+
+.home-header-links {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+}
+
+.home-header-links__item {
+  list-style: none;
+  font-size: var(--text-size-3);
+}
+.home-header-links__title {
+  font-family: var(--font-sans);
+  font-size: var(--text-size-1);
+  font-weight: normal;
+  margin-bottom: 0;
 }
 
 .post-list {
@@ -377,6 +394,7 @@ mark {
 
 .post-list__header-link {
   line-height: 1;
+  font-family: var(--font-sans);
 }
 
 .post-list__title {
