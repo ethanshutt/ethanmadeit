@@ -5,10 +5,10 @@ template: home
 <header class="home-header">
     {{ content | safe }}
     {% if external.links %}
-        <h3 class="home-header-links__title">Keep in Touch</h3>
-            <ul class="home-header-links">
+        <h3 class="link-list__title">Keep in Touch</h3>
+            <ul class="link-list">
             {% for link in external.links %}
-                <li class="home-header-links__item"><a href="{{ link.url }}">{{ link.text }}</a></li>
+                <li class="link-list__item"><a href="{{ link.url }}">{{ link.text }}</a></li>
             {% endfor %}
             </ul>
     {% endif %}
