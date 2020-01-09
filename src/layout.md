@@ -16,6 +16,9 @@ There are three font variables available.
 
 ## Content
 
+### Goals for content
+I'd eventually like to **own my content**. This means I'd like to leverage the pagination ability of eleventy to bring tweets, posts, images that I have created on the web and house them all locally here.
+
 ### URL Sentencing
 **Base URL:** `ethanmade.it` (home)
 - `/for` (work)

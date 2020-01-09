@@ -353,8 +353,8 @@ mark {
 }
 
 .home-header {
-  min-height: 50vh;
   margin-bottom: var(--spacing-lg);
+  padding-bottom: var(--spacing-lg);
 }
 
 .link-list {
@@ -419,6 +419,10 @@ mark {
 .post-list__date {
   font-size: var(--text-size-1);
   color: var(--grey);
+}
+.copyright {
+  font-family: var(--font-sans);
+  font-size: var(--text-size-1);
 }
 /* 
 ** Lists
