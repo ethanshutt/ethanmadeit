@@ -4,13 +4,5 @@ template: home
 ---
 <header class="home-header">
     {{ content | safe }}
-    {% if external.links %}
-        <h3 class="link-list__title">Keep in Touch</h3>
-            <ul class="link-list">
-            {% for link in external.links %}
-                <li class="link-list__item"><a href="{{ link.url }}">{{ link.text }}</a></li>
-            {% endfor %}
-            </ul>
-    {% endif %}
 </header>
 {% include "posts.njk" %}

@@ -3,7 +3,6 @@ title: Twenty Five
 description: Reflections on a year of life.
 date: 2019-03-29
 tags: yearly
-permalink: "/to-twenty-five/"
 ---
 Today is my twenty-fifth birthday and I wanted to take a moment to look back on the past year. I contemplated doing so around the new year, but I felt that my birthday always had more weight and I did not want this to feel like a resolution.
 
