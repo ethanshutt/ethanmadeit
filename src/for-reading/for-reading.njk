@@ -1,0 +1,15 @@
+---
+eleventyExcludeFromCollections: true
+layout: base.njk
+title: Bookshelf
+---
+<section class="link-list">
+    <h1>2020</h1>
+    {% for book in bookshelf %}
+        <article class="link-list__item">
+            <a href="{{ book.url }}">{{ book.title }}</a>
+            <p class="link-list__title">{{ book.subtitle }}</p>
+            <p class="link-list__title">{{ book.author }}</p>
+        </article>
+    {% endfor %}
+</section>
