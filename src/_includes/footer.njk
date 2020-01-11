@@ -1,20 +1,3 @@
 <footer class="site-footer container">
-    <section class="footer-links">
-        {% if navigation.items %}
-                <ul class="link-list">
-                <h3 class="link-list__title">Around the Site</h3>
-                {% for link in navigation.items %}
-                    <li class="link-list__item"><a href="{{ link.url }}">{{ link.text }}</a></li>
-                {% endfor %}
-                </ul>
-        {% endif %}
-        {% if external.links %}
-                <ul class="link-list">
-                <h3 class="link-list__title">Keep in Touch</h3>
-                {% for link in external.links %}
-                    <li class="link-list__item"><a href="{{ link.url }}">{{ link.text }}</a></li>
-                {% endfor %}
-                </ul>
-        {% endif %}
-    </section>
+    <hr>
 </footer>

@@ -14,6 +14,10 @@ There are three font variables available.
 
 **Font-Serif** is used for the remainder of the content.
 
+### Typography
+
+
+
 ## Content
 
 ### Goals for content

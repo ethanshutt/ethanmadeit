@@ -5,12 +5,8 @@
             "url": "/"
         },
         {
-            "text": "About",
-            "url": "/personal"
-        },
-        {
             "text": "Posts",
-            "url": "/old"
+            "url": "/archive"
         }
     ]
 }
