@@ -400,6 +400,12 @@ mark {
   padding: 0;
 }
 
+.bookshelf__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--spacing-lg);
+}
+
 .text-preset-5 {
   font-weight: normal;
   font-size: var(--text-size-3);

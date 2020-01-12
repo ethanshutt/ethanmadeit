@@ -4,7 +4,16 @@
         "subtitle": "The Truth About America's Disappearing Jobs and Why Universal Basic Income Is Our Future",
         "author": "Andrew Yang",
         "url": "https://www.amazon.com/War-Normal-People-Disappearing-Universal/dp/0316414247",
-        "cover": "",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/71CL7lKdODL.jpg",
+        "rating": 5,
+        "audiobook": true
+    },
+    {
+        "title": "The War on Normal People",
+        "subtitle": "",
+        "author": "Andrew Yang",
+        "url": "https://www.amazon.com/War-Normal-People-Disappearing-Universal/dp/0316414247",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/71CL7lKdODL.jpg",
         "rating": 5,
         "audiobook": true
     }
