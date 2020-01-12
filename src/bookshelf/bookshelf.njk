@@ -1,10 +1,10 @@
 ---
 eleventyExcludeFromCollections: true
-layout: base.njk
+layout: bookshelf.njk
 title: Bookshelf
 ---
 <h1 class="black">2020</h1>
-<section class="bookshelf__list">
+<section class="bookshelf__list grid">
     {% for book in bookshelf %}
         <article class="book">
             <a href="{{ book.url }}"><img class="responsive-img" src="{{ book.cover }}" alt="{{ book.title }} Cover"></a>
