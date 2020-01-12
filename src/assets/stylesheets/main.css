@@ -388,14 +388,10 @@ mark {
 }
 
 .site-footer::before {
-  background: url(../images/registration.png);
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-size: var(--spacing-lg);
+  border-top: 3px dotted var(--light-grey);
   content: " ";
   display: block;
-  right: calc(var(--spacing-lg) / -2);
-  height: var(--spacing-lg);
+  width: 100%;
   position: relative;
 }
 
@@ -729,6 +725,10 @@ label {
 
 .bold, strong {
   font-weight: bold;
+}
+
+.black {
+  font-weight: 900;
 }
 
 .no-bold {
