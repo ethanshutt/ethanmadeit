@@ -401,8 +401,9 @@ mark {
 }
 
 .bookshelf__list {
+  align-items: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: var(--spacing-lg);
 }
 
@@ -820,9 +821,9 @@ label {
   display: block;
 }
 @media (min-width: 600px) {
-  #home .grid {
+  .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: var(--spacing-lg);
     align-items: center;
   }

@@ -9,12 +9,30 @@
         "audiobook": true
     },
     {
-        "title": "The War on Normal People",
-        "subtitle": "",
-        "author": "Andrew Yang",
-        "url": "https://www.amazon.com/War-Normal-People-Disappearing-Universal/dp/0316414247",
-        "cover": "https://images-na.ssl-images-amazon.com/images/I/71CL7lKdODL.jpg",
-        "rating": 5,
+        "title": "Nicely Said",
+        "subtitle": "Writing for the Web with Style and Purpose",
+        "author": "Nicole Fenton and Katie Keifer Lee",
+        "url": "https://www.amazon.com/Nicely-Said-Writing-Purpose-Voices-dp-0321988191/dp/0321988191/ref=mt_paperback?_encoding=UTF8&me=&qid=",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41I3pSCtSpL._SX386_BO1,204,203,200_.jpg",
+        "rating": "",
+        "audiobook": false
+    },
+    {
+        "title": "Talking To Strangers",
+        "subtitle": "What We Should Know about the People We Don't Know",
+        "author": "Malcom Gladwell",
+        "url": "https://www.amazon.com/Talking-Strangers-Should-about-People-ebook/dp/B07NDKVWZW/ref=sr_1_1_sspa?crid=2UV35PYZU2J7G&keywords=talking+to+strangers+malcolm+gladwell&qid=1578830255&s=books&sprefix=talking%2Cstripbooks%2C153&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNDc1SFc1RkVMNkZLJmVuY3J5cHRlZElkPUEwMDk3Mzg5QlFSUkVWUTYySlRIJmVuY3J5cHRlZEFkSWQ9QTA1ODc1ODkzVDNRN1hQRlgyVkROJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41rDqwHLy%2BL._SY346_.jpg",
+        "rating": "",
         "audiobook": true
+    },
+    {
+        "title": "Walden and Civil Disobedience",
+        "subtitle": "",
+        "author": "Henry David Thoreau",
+        "url": "https://www.amazon.com/gp/product/0451532163/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41UtCWaX0BL._SX308_BO1,204,203,200_.jpg",
+        "rating": "",
+        "audiobook": false
     }
 ]
