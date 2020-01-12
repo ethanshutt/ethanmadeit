@@ -1,5 +1,15 @@
 {
-    "items": [
+    "primary": [
+        {
+            "text": "Home",
+            "url": "/"
+        },
+        {
+            "text": "Posts",
+            "url": "/archive"
+        }
+    ],
+    "secondary": [
         {
             "text": "Home",
             "url": "/"
