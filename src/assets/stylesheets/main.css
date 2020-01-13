@@ -125,7 +125,7 @@ body {
 */
 
 .container {
-  max-width: 95%;
+  max-width: 85%;
   margin: var(--spacing-md) auto;
   
 }
