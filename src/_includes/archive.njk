@@ -2,6 +2,6 @@
 <article class="font-sans margin-top">
   <h3 class="text-preset-5 no-margin-bottom"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
   <p class="italic no-margin-top no-margin-bottom">{{ post.data.description }}</p>
-  <time class="text-preset-7" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+  <time class="text-preset-7 text-color__light-grey" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
 </article>
 {%- endfor -%}
