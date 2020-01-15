@@ -34,5 +34,50 @@
         "cover": "https://images-na.ssl-images-amazon.com/images/I/41UtCWaX0BL._SX308_BO1,204,203,200_.jpg",
         "rating": "",
         "audiobook": false
+    },
+    {
+        "title": "Palaces for the People",
+        "subtitle": "How Social Infrastructure Can Help Fight Inequality, Polarization, and the Decline of Civic Life",
+        "author": "Eric Klinenberg",
+        "url": "https://www.amazon.com/Palaces-People-Infrastructure-Inequality-Polarization/dp/1524761176/ref=sr_1_1?crid=5466XNWOP5QR&keywords=palaces+for+the+people&qid=1579053994&sprefix=palaces%2Caps%2C153&sr=8-1",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51f90I3IJoL._SX322_BO1,204,203,200_.jpg",
+        "rating": "",
+        "audiobook": false
+    },
+    {
+        "title": "Uncivil Agreement",
+        "subtitle": "How Politics Became Our Identity",
+        "author": "Lilliana Mason",
+        "url": "https://www.amazon.com/dp/022652454X/?coliid=I3BQIYF49EJG65&colid=L2OLKABT9I6I&psc=1&ref_=lv_ov_lig_dp_it",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/41QL3CV-5VL._SX331_BO1,204,203,200_.jpg",
+        "rating": "",
+        "audiobook": false
+    },
+    {
+        "title": "Range",
+        "subtitle": "",
+        "author": "David Epstein",
+        "url": "https://www.amazon.com/dp/1509843507/?coliid=IS3UNJ3EP5INB&colid=L2OLKABT9I6I&psc=1&ref_=lv_ov_lig_dp_it",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/414gAWhGTyL._SX323_BO1,204,203,200_.jpg",
+        "rating": "",
+        "audiobook": true
+    },
+    {
+        "title": "Micromastery",
+        "subtitle": "Learn Small, Learn Fast, and Unlock Your Potential to Achieve Anything",
+        "author": "Robert Twigger",
+        "url": "https://www.amazon.com/Micromastery-Unlock-Potential-Achieve-Anything/dp/0143132326/ref=sr_1_1?keywords=micromastery&qid=1579054654&sr=8-1",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/51b3-Y4a6YL._SX331_BO1,204,203,200_.jpg",
+        "rating": "",
+        "audiobook": true
+    },
+    {
+        "title": "Draft No. 4",
+        "subtitle": "On the Writing Process",
+        "author": "John McPhee",
+        "url": "https://www.amazon.com/Draft-No-4-Writing-Process/dp/0374537976/ref=sr_1_1?crid=31ODU19E0DII8&keywords=draft+no.+4+on+the+writing+process&qid=1579054852&sprefix=draft+no%2Caps%2C159&sr=8-1",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/319KqMynyBL._SX329_BO1,204,203,200_.jpg",
+        "rating": "",
+        "audiobook": true
     }
 ]
