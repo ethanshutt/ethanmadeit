@@ -159,20 +159,13 @@ body {
 
 }
 
-.content h1:not(:first-child),
-.content h2:not(:first-child),
-.content h3:not(:first-child),
-.content h4:not(:first-child),
-.content h5:not(:first-child) {
-  margin-top: var(--spacing-md);
-}
-
 h1,
 h2,
 h3,
 h4,
 h5 {
   font-weight: normal;
+  margin: 0;
 }
 
 h1,
@@ -201,7 +194,15 @@ p {
   font-size: var(--text-size-2);
 }
 
-.content p:not(:first-of-type) {
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5 {
+  margin-top: var(--spacing-sm);
+}
+
+.content p+p {
   margin: 0 0 var(--spacing-sm) 0;
 }
 
