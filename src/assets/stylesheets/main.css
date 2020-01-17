@@ -2,7 +2,7 @@
 ** Set font size to base of 16px
 */
 html { 
-  font-size: 10px; 
+  font-size: 100%;
 }
 
 /* 
@@ -61,7 +61,7 @@ table {
 
 :root {
   /* Typography */
-  --default-size: 1.6rem;
+  --default-size: 1em;
   --text-scale: 1.2;
   --default-line-height: 1.4;
   --text-size-1: calc(var(--default-size) / var(--text-scale));
@@ -78,7 +78,7 @@ table {
   --font-color: var(--black);
 
   /* Layout */
-  --container-mobile: 520px;
+  --container-mobile: 35em;
   --container-tablet: calc(var(--container-mobile) * 1.5);
   --container-desktop: calc(var(--container-tablet) * 1.5);
  
@@ -159,12 +159,20 @@ body {
 
 }
 
-.contenth1:not(:first-child),
-.contenth2:not(:first-child),
-.contenth3:not(:first-child),
-.contenth4:not(:first-child),
-.contenth5:not(:first-child) {
+.content h1:not(:first-child),
+.content h2:not(:first-child),
+.content h3:not(:first-child),
+.content h4:not(:first-child),
+.content h5:not(:first-child) {
   margin-top: var(--spacing-md);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
 }
 
 h1,
@@ -220,7 +228,7 @@ p {
   }
   p,
   ul li {
-    font-size: var(--text-size-2);
+    font-size: var(--text-size-3);
   }
 }
 
@@ -247,7 +255,7 @@ p {
   }
   p,
   ul li {
-    font-size: var(--text-size-3);
+    font-size: var(--text-size-4);
   }
 }
 
@@ -308,7 +316,7 @@ code, pre {
 
 code {
   color: var(--cyan);
-  font-size: 1.6rem;
+  font-size: var(--text-size-1);
 }
 
 pre, blockquote {
