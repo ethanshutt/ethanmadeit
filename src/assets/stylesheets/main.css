@@ -2,7 +2,8 @@
 ** Set font size to base of 16px
 */
 html { 
-  font-size: 100%;
+  font-size: 16px;
+  /* font-size: 100%; */
 }
 
 /* 
@@ -115,11 +116,11 @@ body {
   margin: 0;
   padding: 0;
 }
-#home {
+/* #home {
   background: url('../images/home-background.jpg') no-repeat;
   background-size: cover;
   background-position: bottom;
-}
+} */
 /* 
 ** Layout
 */
@@ -271,10 +272,7 @@ a {
 
 a:hover, a:active, a:focus {
   color: var(--light-grey);
-  line-height: 1;
   text-decoration-color: var(--light-grey);
-  text-decoration-thickness: .2rem;
-  text-underline-offset: .3rem;
 }
 
 .work a:hover {
@@ -379,7 +377,7 @@ mark {
   }
 }
 
-.home-header::before {
+/* .home-header::before {
   background: url(../images/registration.png);
   background-position: top left;
   background-repeat: no-repeat;
@@ -400,7 +398,7 @@ mark {
   left: calc(var(--spacing-lg) / -2);
   height: var(--spacing-lg);
   position: relative;
-}
+} */
 
 
 .home-header {
