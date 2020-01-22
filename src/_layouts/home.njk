@@ -3,4 +3,7 @@ layout: base.njk
 template: home
 ---
 {{ content | safe }}
-{% include "posts.njk" %}
+<div class="grid">
+    {% include "posts.njk" %}
+    {% include "projects.njk" %}
+</div>

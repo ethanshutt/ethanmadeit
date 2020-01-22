@@ -1,0 +1,21 @@
+{
+    "projects": [
+        {
+            "text": "Notebook CSS",
+            "description": "A modern, lightweight boilerplate built with vanilla CSS",
+            "tags": ["boilerplate", "css"],
+            "demo": " ", 
+            "github": "https://github.com/ethanshutt/notebook"
+        },
+        {
+            "text": "Journal Starter",
+            "description": "Lightweight Eleventy starter kit.",
+            "tags": [
+                "starterkit",
+                "eleventy"
+            ],
+            "demo": "http://journal-starter.netlify.com",
+            "github": "https://github.com/ethanshutt/journal"
+        }
+    ]
+}

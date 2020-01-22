@@ -1,11 +1,13 @@
+<section class="margin-bottom-lg">
 <header class="post-list__header">
   <h2 class="post-list-title">Recent posts</h2>
   <a class="text-preset__link" href="/archive">View All</a>
 </header>
 {%- for post in collections.recent -%}
-<article class="font-sans margin-top">
-  <h3 class="text-preset-5 no-margin-bottom"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-  <p class="italic no-margin-top no-margin-bottom">{{ post.data.description }}</p>
+<article class="font-sans margin-bottom-lg">
+  <h3 class="text-preset-5 margin-bottom-none"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+  <p class="italic margin-top-none margin-bottom-none">{{ post.data.description }}</p>
   <time class="text-preset-7 text-color__light-grey" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
 </article>
 {%- endfor -%}
+</section>
