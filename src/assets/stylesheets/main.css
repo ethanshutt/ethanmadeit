@@ -116,11 +116,11 @@ body {
   margin: 0;
   padding: 0;
 }
-/* #home {
+#home {
   background: url('../images/home-background.jpg') no-repeat;
   background-size: cover;
   background-position: bottom;
-} */
+} 
 /* 
 ** Layout
 */
@@ -376,30 +376,6 @@ mark {
     font-size: var(--text-size-2);
   }
 }
-
-/* .home-header::before {
-  background: url(../images/registration.png);
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: var(--spacing-lg);
-  content: " ";
-  display: block;
-  left: calc(var(--spacing-lg) / -2);
-  height: var(--spacing-lg);
-  position: relative;
-}
-.home-header::after {
-  background: url(../images/colorbar.png);
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: var(--spacing-lg);
-  content: " ";
-  display: block;
-  left: calc(var(--spacing-lg) / -2);
-  height: var(--spacing-lg);
-  position: relative;
-} */
-
 
 .home-header {
   margin-bottom: var(--spacing-lg);
