@@ -118,8 +118,8 @@ body {
 }
 #home {
   background: url('../images/home-background.jpg') no-repeat;
-  background-size: cover;
-  background-position: bottom;
+  background-size: 100%;
+  background-position: top;
 } 
 /* 
 ** Layout
