@@ -118,9 +118,17 @@ body {
 }
 #home {
   background: url('../images/home-background.jpg') no-repeat;
-  background-size: 100%;
+  background-size: 900px;
   background-position: top;
 } 
+
+@media (min-width: 800px) {
+    #home {
+      background: url('../images/home-background.jpg') no-repeat;
+      background-size: 100%;
+      background-position: top;
+  } 
+}
 /* 
 ** Layout
 */
