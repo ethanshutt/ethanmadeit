@@ -953,15 +953,17 @@ a img:hover {
 /* 
 ** Grid
 */
+
 .grid {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+  align-items: top;
 }
 
-@media (min-width: 600px) {
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-lg);
-    align-items: top;
-  }
+.bookshelf {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+  gap: var(--spacing-lg);
 }

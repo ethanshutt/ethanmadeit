@@ -4,16 +4,15 @@ layout: bookshelf.njk
 title: Bookshelf
 ---
 <h1 class="black">2020</h1>
-<section class="bookshelf__list grid">
+<section class="bookshelf">
     {% for book in bookshelf %}
         <article class="book">
             <a href="{{ book.url }}"><img class="responsive-img" src="{{ book.cover }}" alt="{{ book.title }} Cover"></a>
             <div class="book-information">
                 <a class="text-preset__link" href="{{ book.url }}">{{ book.title }}</a>
-                {# <p class="text-preset__list-title no-margin-top no-margin-bottom text-color__light-grey">{{ book.subtitle }}</p> #}
-                <p class="text-preset__list-title no-margin-top no-margin-bottom">{{ book.author }}</p>
+                <span class="block font-sans margin-top-none no-margin-bottom">{{ book.author }}</span>
                 {% if book.rating %}
-                    <p class="text-preset__list-title no-margin-top text-color__light-grey">My rating: {{ book.rating }}/5</p>
+                    <span class="block font-sans margin-top-none text-color__light-grey">My rating: {{ book.rating }}/5</span>
                 {% endif %}
             </div>
         </article>
