@@ -955,15 +955,15 @@ a img:hover {
 */
 
 .grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--spacing-lg);
   align-items: top;
+  display: grid;
+  gap: var(--spacing-lg);
+  grid-template-columns: 1fr 1fr;
 }
 
 .bookshelf {
   align-items: center;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
   gap: var(--spacing-lg);
+  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
 }
