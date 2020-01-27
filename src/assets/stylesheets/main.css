@@ -79,7 +79,7 @@ table {
   --font-color: var(--black);
 
   /* Layout */
-  --container-mobile: 35em;
+  --container-mobile: 30em;
   --container-tablet: calc(var(--container-mobile) * 1.5);
   --container-desktop: calc(var(--container-tablet) * 1.5);
  
@@ -958,7 +958,7 @@ a img:hover {
   align-items: top;
   display: grid;
   gap: var(--spacing-lg);
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
 }
 
 .bookshelf {
