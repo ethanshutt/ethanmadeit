@@ -1,6 +1,7 @@
 # folders
 node_modules
 dist
+_drafts/
 
 # files
 */*/.DS_Store
