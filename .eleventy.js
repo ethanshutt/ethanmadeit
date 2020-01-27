@@ -33,6 +33,11 @@ module.exports = function (eleventyConfig) {
         return [...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)]
             .reverse()
     });
+
+    eleventyConfig.addCollection('share', collection => {
+        return [...collection.getFilteredByGlob('./src/to-share/shares/*.md').filter(livePosts)]
+            .reverse()
+    });
     
     
     eleventyConfig.addCollection('projects', collection => {
