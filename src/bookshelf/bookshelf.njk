@@ -9,7 +9,7 @@ title: Bookshelf
         <article class="book">
             <a href="{{ book.url }}"><img class="responsive-img" src="{{ book.cover }}" alt="{{ book.title }} Cover"></a>
             <div class="book-information">
-                <a class="text-preset__link" href="{{ book.url }}">{{ book.title }}</a>
+                <a class="text-size-3 font-sans" href="{{ book.url }}">{{ book.title }}</a>
                 <span class="block font-sans margin-top-none no-margin-bottom">{{ book.author }}</span>
                 {% if book.rating %}
                     <span class="block font-sans margin-top-none text-color__light-grey">My rating: {{ book.rating }}/5</span>
