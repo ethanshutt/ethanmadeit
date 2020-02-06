@@ -27,6 +27,33 @@
         "audiobook": true
     },
     {
+        "title": "Range",
+        "subtitle": "",
+        "author": "David Epstein",
+        "url": "https://www.amazon.com/dp/1509843507/?coliid=IS3UNJ3EP5INB&colid=L2OLKABT9I6I&psc=1&ref_=lv_ov_lig_dp_it",
+        "cover": "https://images-na.ssl-images-amazon.com/images/I/414gAWhGTyL._SX323_BO1,204,203,200_.jpg",
+        "rating": 5,
+        "audiobook": true
+    },
+    {
+        "title": "Shortest Way Home",
+        "subtitle": "",
+        "author": "Pete Buttigieg",
+        "url": "https://www.amazon.com/gp/product/1631494368/ref=x_gr_w_bb_sin?ie=UTF8&tag=x_gr_w_bb_sin-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1631494368&SubscriptionId=1MGPYB6YW3HWK55XCGG2",
+        "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548903836l/40180047.jpg",
+        "rating": 5,
+        "audiobook": true
+    },
+    {
+        "title": "A Fighting Chance",
+        "subtitle": "",
+        "author": "Elizabeth Warren",
+        "url": "https://www.amazon.com/gp/product/1627790527/ref=x_gr_w_bb_sin?ie=UTF8&tag=x_gr_w_bb_sin-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1627790527&SubscriptionId=1MGPYB6YW3HWK55XCGG2",
+        "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393067197l/18779662.jpg",
+        "rating": "",
+        "audiobook": true
+    },
+    {
         "title": "Walden and Civil Disobedience",
         "subtitle": "",
         "author": "Henry David Thoreau",
@@ -52,15 +79,6 @@
         "cover": "https://images-na.ssl-images-amazon.com/images/I/41QL3CV-5VL._SX331_BO1,204,203,200_.jpg",
         "rating": "",
         "audiobook": false
-    },
-    {
-        "title": "Range",
-        "subtitle": "",
-        "author": "David Epstein",
-        "url": "https://www.amazon.com/dp/1509843507/?coliid=IS3UNJ3EP5INB&colid=L2OLKABT9I6I&psc=1&ref_=lv_ov_lig_dp_it",
-        "cover": "https://images-na.ssl-images-amazon.com/images/I/414gAWhGTyL._SX323_BO1,204,203,200_.jpg",
-        "rating": "",
-        "audiobook": true
     },
     {
         "title": "Micromastery",
