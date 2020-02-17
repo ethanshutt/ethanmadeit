@@ -585,6 +585,10 @@ a img:hover {
   opacity: 0.7;
 }
 
+figure img {
+  margin-bottom: 0;
+}
+
 .video-wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -858,14 +862,48 @@ a img:hover {
 }
 
 .box-shadow {
-  box-shadow: 0 4px 8px rgba(39, 59, 63, 16%);
+  box-shadow: 0 0 8px rgba(39, 59, 63, 16%);
 }
 
 .website-border {
-  border: 2px solid var(--lighter-grey);
-  border-top: 1em solid var(--lighter-grey);
+  background: var(--lighter-grey);
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
+  position: relative;
+}
+.window-controls {
+  margin-left: .4em;
+}
+.window-controls__button {
+  background: var(--light-grey);
+  border-radius: 50%;
+  content: " ";
+  display: inline-block;
+  height: .3em;
+  width: .3em;
+  position: relative;
+  top: -.3em;
+}
+
+.window-controls__button--red {
+  background-color: var(--error);
+}
+
+.website-img {
+  border: 1px solid var(--lighter-grey);
+  position: relative;
+  margin-top: -.3em;
+  margin-bottom: -1.5em;
+  max-height: 10em;
+  overflow: scroll;
+}
+
+.website-img img {
+  margin-bottom: -1em;
+}
+
+.scrollable {
+  overflow: scroll;
 }
 
 .list-no-style {
