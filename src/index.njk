@@ -23,12 +23,16 @@ title: Home
 </header>
 <section class="container wide grid grid-5 grid-align-center margin-bottom-lg">
 {%- for poster in work.posters -%}
-    <img class="responsive-img box-shadow" src="{{ poster.url }}" alt="{{ poster.alt }}">
+    <figure>
+        <img class="responsive-img box-shadow" src="{{ poster.url }}" alt="{{ poster.alt }}">
+    </figure>
 {%- endfor -%}
 </section>
 <section class="container wide grid grid-3 grid-align-center margin-top-lg margin-bottom-lg">
 {%- for site in work.websites -%}
-    <img class="responsive-img website-border box-shadow" src="{{ site.url }}" alt="{{ site.alt }}">
+    <figure class="website-border box-shadow" style="max-height: 12em; overflow: scroll;">
+        <img class="responsive-img" src="{{ site.url }}" alt="{{ site.alt }}">
+    </figure>
 {%- endfor -%}
 </section>
 <section class="container grid"> 
