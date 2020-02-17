@@ -38,11 +38,16 @@ module.exports = function (eleventyConfig) {
         return [...collection.getFilteredByGlob('./src/to-share/shares/*.md').filter(livePosts)]
             .reverse()
     });
-    
-    
+     
     eleventyConfig.addCollection('projects', collection => {
         return [
             ...collection.getFilteredByGlob('./src/for/*.md').filter(livePosts)
+        ].reverse();
+    });
+
+    eleventyConfig.addCollection('posters', collection => {
+        return [
+            ...collection.getFilteredByGlob('./src/work/posters/*.png')
         ].reverse();
     });
 

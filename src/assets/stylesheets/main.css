@@ -92,6 +92,7 @@ table {
   --black: #27383F;
   --grey: #515f66;
   --light-grey: #93a4ac;
+  --lighter-grey: #DCE2E5;
 
   /* Colors */
   --cyan: #409ff8;
@@ -856,6 +857,17 @@ a img:hover {
   color: var(--yellow);
 }
 
+.box-shadow {
+  box-shadow: 0 4px 8px rgba(39, 59, 63, 16%);
+}
+
+.website-border {
+  border: 2px solid var(--lighter-grey);
+  border-top: 1em solid var(--lighter-grey);
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
 .list-no-style {
   list-style: none;
 }
@@ -920,17 +932,17 @@ a img:hover {
 }
 
 .grid-3 {
-  grid-template-columns: repeat(3, minmax(12em, 1fr)); /* roughly 1/3 */
+  grid-template-columns: repeat(auto-fill, minmax(12em, 1fr)); /* roughly 1/3 */
 }
 
 .grid-5 {
-  grid-template-columns: repeat(5, minmax(8em, 1fr)); /* roughly 1/5 */
+  grid-template-columns: repeat(auto-fill, minmax(8em, 1fr)); /* roughly 1/5 */
 }
 
 .grid-align-center {
   align-items: center;
 }
 
-.grid-item-span-column {
-  grid-column: 3 / end;
+.grid-align-bottom {
+  align-items: end;
 }

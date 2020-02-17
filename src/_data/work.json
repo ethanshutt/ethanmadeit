@@ -1,0 +1,38 @@
+{
+    "posters": [
+        {
+            "alt": "George Watsky Poster",
+            "url": "../assets/images/work/posters/watsky.jpg"
+        },
+        {
+            "alt": "Cleveland Cavaliers Poster",
+            "url": "../assets/images/work/posters/cavsposter.png"
+        },
+        {
+            "alt": "Community Unity Poster",
+            "url": "../assets/images/work/posters/communityunity-full-poster.jpg"
+        },
+        {
+            "alt": "Monster Mash Poster",
+            "url": "../assets/images/work/posters/monstermash-full.png"
+        },
+        {
+            "alt": "Space Poster",
+            "url": "../assets/images/work/posters/space-design-full-poster.png"
+        }
+    ],
+    "websites": [
+        {
+            "alt": "IPD LLC Website",
+            "url": "../assets/images/work/websites/ipd-llc-site-screenshot.jpg"
+        },
+        {
+            "alt": "Truly Styled Website",
+            "url": "../assets/images/work/websites/truly-styled-crop.jpg"
+        },
+        {
+            "alt": "Farmers Hardware Website",
+            "url": "../assets/images/work/websites/Farmers-Hardware-screenshot-crop.jpg"
+        }
+    ]
+}
