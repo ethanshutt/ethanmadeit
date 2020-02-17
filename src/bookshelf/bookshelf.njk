@@ -4,7 +4,7 @@ layout: bookshelf.njk
 title: Bookshelf
 ---
 <h1 class="black">2020</h1>
-<section class="bookshelf">
+<section class="grid grid-5 grid-align-center">
     {% for book in bookshelf %}
         <article class="book">
             <a href="{{ book.url }}"><img class="responsive-img" src="{{ book.cover }}" alt="{{ book.title }} Cover"></a>

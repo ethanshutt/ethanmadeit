@@ -72,7 +72,6 @@ table {
   --text-size-5: calc(var(--text-size-4) * var(--text-scale));
   --text-size-6: calc(var(--text-size-5) * var(--text-scale));
   --text-size-7: calc(var(--text-size-6) * var(--text-scale));
-  --text-size-8: calc(var(--text-size-7) * var(--text-scale));
   --font-sans: lft-etica, sans-serif;
   --font-serif: whitman, serif;
   --font-monospace: monospace;
@@ -80,17 +79,17 @@ table {
 
   /* Layout */
   --container-mobile: 85%;
-  --container-tablet: 32em;
+  --container-tablet: 30em;
   --container-desktop: calc(var(--container-tablet) * 1.15);
  
   /* Spacing */
-  --spacing-xs: .5em;
-  --spacing-sm: 1em;
-  --spacing-md: 1.5em;
-  --spacing-lg: 2em;
+  --spacing-xs: .5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 3rem;
 
   /* Text Colors */
-  --black: #27383f;
+  --black: #27383F;
   --grey: #515f66;
   --light-grey: #93a4ac;
 
@@ -142,11 +141,17 @@ body {
   .container {
     max-width: var(--container-tablet);
   }
+  .wide {
+    max-width: calc(var(--container-tablet) * 1.25);
+  }
 }
 
 @media (min-width: 800px) {
   .container {
     max-width: var(--container-desktop);
+  }
+  .wide {
+    max-width: calc(var(--container-desktop) * 1.5);
   }
 }
 
@@ -159,8 +164,8 @@ h5 {
   margin: 0;
 }
 
-.text-size-8 {
-  font-size: var(--text-size-8);
+.text-size-7 {
+  font-size: var(--text-size-6);
 }
 
 h1,
@@ -222,6 +227,9 @@ p,
 @media (min-width: 800px) {
   html {
     font-size: 110%;
+  }
+  .text-size-7 {
+    font-size: var(--text-size-7);
   }
 }
 
@@ -345,14 +353,6 @@ mark {
     display: block;
     font-size: var(--text-size-2);
   }
-}
-
-.home-header {
-  margin-bottom: var(--spacing-lg);
-  padding-bottom: var(--spacing-lg);
-}
-.home-header h1 {
-  font-weight: 900;
 }
 
 .site-footer::before {
@@ -915,13 +915,22 @@ a img:hover {
 .grid {
   align-items: top;
   display: grid;
-  gap: var(--spacing-lg);
-  grid-template-columns: repeat(auto-fill, minmax(16em, 1fr)); /* roughly 1/2 */
+  gap: var(--spacing-md);
+  grid-template-columns: repeat(auto-fill, minmax(16em, 1fr)); /* auto */
 }
 
-.bookshelf {
+.grid-3 {
+  grid-template-columns: repeat(3, minmax(12em, 1fr)); /* roughly 1/3 */
+}
+
+.grid-5 {
+  grid-template-columns: repeat(5, minmax(8em, 1fr)); /* roughly 1/5 */
+}
+
+.grid-align-center {
   align-items: center;
-  display: grid;
-  gap: var(--spacing-lg);
-  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr)); /* roughly 1/5 */
+}
+
+.grid-item-span-column {
+  grid-column: 3 / end;
 }

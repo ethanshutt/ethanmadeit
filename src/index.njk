@@ -3,15 +3,27 @@ eleventyExcludeFromCollections: true
 layout: home.njk
 title: Home
 ---
-<header class="home-header">
-    <div class="margin-bottom-sm">
+<header class="home-header container wide">
+    <figure class="margin-bottom-sm">
         <img style="height: 2em; position: relative; left: -1em;" class="margin-right-md" src="/assets/images/registration.png">
         <img style="height: 2em; position: relative; left: -1em;" src="/assets/images/colorbar.png">
-        <img class="responsive-img margin-top-md" src="/assets/images/ethanshutt-portrait.jpg" >
+    </figure>
+    <div class="grid">
+        <figure>
+            <img class="responsive-img" src="/assets/images/ethanshutt-portrait.jpg" >
+        </figure>
+        <section>
+            <h1 class="black text-size-7">Hi there, my name is Ethan Shutt.</h1>
+            <h2 class="text-color__light-grey">I’m a designer, developer, and marketer making things for print and the web.</h2>
+            <p>I studied at Murray State University and received a Bachelor of Fine Arts with an emphasis in Graphic design. Since then, I’ve spent the last four years honing my skills in design and marketing with freelance clients and day-to-day at Hunt Ford Chrysler.</p>
+            <p>My primary focuses are helping companies match their brands to their ideal culture, building lean and responsive websites, and creating content that informs buyers.</p>
+            <p>I’m also passionate about <a href="/bookshelf">reading</a>, <a href="/to-share">sharing information</a>, and travel.</p>
+        </section>
     </div>
-    <h1>Hi there, my name is Ethan Shutt.</h1>
-    <h2 class="text-color__grey">I’m a designer, developer, and marketer making things for print and the web.</h2>
-    <p>I studied at Murray State University and received a Bachelor of Fine Arts with an emphasis in Graphic design. Since then, I’ve spent the last four years honing my skills in design and marketing with freelance clients and day-to-day at Hunt Ford Chrysler.</p>
-    <p>My primary focuses are helping companies match their brands to their ideal culture, building lean and responsive websites, and creating content that informs buyers.</p>
-    <p>I’m also passionate about <a href="/bookshelf">reading</a>, <a href="/to-share">sharing information</a>, and travel.</p>
 </header>
+<section class="container margin-bottom-lg">
+</section>
+<section class="container grid"> 
+    {% include "posts.njk" %}
+    {% include "projects.njk" %}
+</section>

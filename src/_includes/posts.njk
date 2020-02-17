@@ -1,10 +1,10 @@
-<section class="margin-bottom-lg">
+<section class="margin-bottom-md">
 <header class="flex--header margin-bottom-sm">
   <h2 class="h5 text-color__magenta flex--title">Recent posts</h2>
   <a class="font-sans" href="/archive">View All</a>
 </header>
 {%- for post in collections.recent -%}
-<article class="font-sans margin-bottom-lg">
+<article class="font-sans margin-bottom-sm">
   <h3 class="text-size-3 margin-bottom-none"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
   <p class="italic margin-top-none margin-bottom-none">{{ post.data.description }}</p>
   <time class="text-preset-7 text-color__light-grey" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
