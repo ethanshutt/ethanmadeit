@@ -7,7 +7,7 @@ title: Bookshelf
 <section class="grid grid-5 grid-align-center">
     {% for book in bookshelf %}
         <article class="book">
-            <a href="{{ book.url }}"><img class="responsive-img" src="{{ book.cover }}" alt="{{ book.title }} Cover"></a>
+            <a href="{{ book.url }}"><img class="responsive-img book-cover" src="{{ book.cover }}" alt="{{ book.title }} Cover"></a>
             <div class="book-information">
                 <a class="text-size-3 font-sans" href="{{ book.url }}">{{ book.title }}</a>
                 <span class="block font-sans margin-top-none no-margin-bottom">{{ book.author }}</span>

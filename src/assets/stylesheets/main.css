@@ -910,6 +910,21 @@ figure img {
   list-style: none;
 }
 
+.book-cover {
+  border-right: .6rem solid var(--lighter-grey);
+  border-bottom: .2rem solid var(--lighter-grey);
+  border-radius: 2px;
+  box-shadow: 4px 2px 8px rgba(39, 59, 63, 26%);
+}
+.book-cover:hover {
+  box-shadow: 4px 2px 10px rgba(39, 59, 63, 24%);
+  transform: scale(104%) rotate(1deg);
+  position: relative;
+  opacity: 1;
+  transition-property: transform box-shadow;
+  transition-duration: .7s;
+}
+
 /* 
 ** Navigation
 */
