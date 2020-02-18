@@ -49,7 +49,14 @@ title: Home
     </figure>
 {%- endfor -%}
 </section>
-<section class="container grid"> 
+<section class="container wide grid grid-align-center margin-bottom-lg">
+{%- for graphic in work.social -%}
+    <figure>
+        <img class="responsive-img box-shadow" src="{{ graphic.url }}" alt="{{ graphic.alt }}">
+    </figure>
+{%- endfor -%}
+</section>
+<section class="container"> 
     {% include "posts.njk" %}
     {% include "projects.njk" %}
 </section>

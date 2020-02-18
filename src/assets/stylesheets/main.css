@@ -865,6 +865,14 @@ figure img {
   box-shadow: 0 0 8px rgba(39, 59, 63, 16%);
 }
 
+.border {
+  border: 1px solid var(--lighter-grey);
+}
+
+.border-radius {
+  border-radius: .25em;
+}
+
 .website-border {
   background: var(--lighter-grey);
   border-top-left-radius: .25rem;

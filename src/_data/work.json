@@ -48,5 +48,31 @@
             "alt": "Ramble Brand Design",
             "url": "../assets/images/work/logos/ramble-logo.png"
         }
+    ],
+    "social": [
+        {
+            "alt": "Solar Eclipse T-Shirt Social Media Graphic",
+            "url": "../assets/images/work/social/total-solar-eclipse-t-shirt.jpg"
+        },
+        {
+            "alt": "Hunt Ford Service Bay Social Media Graphic",
+            "url": "../assets/images/work/social/indoor_service_large.jpg"
+        },
+        {
+            "alt": "Racer One Murray State Football Recruitment Graphic",
+            "url": "../assets/images/work/social/racerone.jpg"
+        },
+        {
+            "alt": "Roy Stewart Stadium Murray State Football Recruitment Graphic",
+            "url": "../assets/images/work/social/roystewartstadium.jpg"
+        },
+        {
+            "alt": "Racers Meet Murray Murray State Football Recruitment Graphic",
+            "url": "../assets/images/work/social/racersmeetmurray.jpg"
+        },
+        {
+            "alt": "Coach Boone Murray State Football Recruitment Graphic",
+            "url": "../assets/images/work/social/coachbooneadd.jpg"
+        }
     ]
 }
