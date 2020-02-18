@@ -34,5 +34,19 @@
             "alt": "Farmers Hardware Website",
             "url": "../assets/images/work/websites/Farmers-Hardware-screenshot-crop.jpg"
         }
+    ],
+    "logos": [
+        {
+            "alt": "Logan County Public Library Logo Design",
+            "url": "../assets/images/work/logos/logan-county-public-library-logo.png"
+        },
+        {
+            "alt": "Farmers Hardware Logo Design",
+            "url": "../assets/images/work/logos/farmers-hardware-logo-red.png"
+        },
+        {
+            "alt": "Ramble Brand Design",
+            "url": "../assets/images/work/logos/ramble-logo.png"
+        }
     ]
 }

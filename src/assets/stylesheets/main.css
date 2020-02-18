@@ -895,15 +895,11 @@ figure img {
   margin-top: -.3em;
   margin-bottom: -1.5em;
   max-height: 10em;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .website-img img {
   margin-bottom: -1em;
-}
-
-.scrollable {
-  overflow: scroll;
 }
 
 .list-no-style {
@@ -998,4 +994,7 @@ figure img {
 
 .grid-align-bottom {
   align-items: end;
+}
+.grid-gap-lg {
+  gap: var(--spacing-lg)
 }

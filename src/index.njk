@@ -21,6 +21,13 @@ title: Home
         </section>
     </div>
 </header>
+<section class="container wide grid grid-3 grid-gap-lg grid-align-center margin-bottom-lg">
+{%- for logo in work.logos -%}
+    <figure>
+        <img class="responsive-img" src="{{ logo.url }}" alt="{{ logo.alt }}">
+    </figure>
+{%- endfor -%}
+</section>
 <section class="container wide grid grid-5 grid-align-center margin-bottom-lg">
 {%- for poster in work.posters -%}
     <figure>
