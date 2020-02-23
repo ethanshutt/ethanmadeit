@@ -327,7 +327,8 @@ figcaption {
 
 hr {
   width: 100%;
-  margin: var(--spacing-md) 0;
+  max-width: var(--container-desktop);
+  margin: var(--spacing-lg) auto;
   border: none;
   height: 2px;
   background: var(--light-grey);
@@ -623,6 +624,26 @@ figure img {
   text-align: right;
 }
 
+.padding-xs {
+  padding: var(--spacing-xs);
+}
+
+.padding-sm {
+  padding: var(--spacing-sm);
+}
+
+.padding-md {
+  padding: var(--spacing-md);
+}
+
+.padding-lg {
+  padding: var(--spacing-lg);
+}
+
+.padding-none {
+  padding: none;
+}
+
 .padding-top-xs {
   padding-top: var(--spacing-xs);
 }
@@ -839,6 +860,14 @@ figure img {
 
 .no-italic {
   font-style: normal;
+}
+
+.background__white {
+  background-color: white;
+}
+
+.background__lighter-grey {
+  background-color: var(--lighter-grey);
 }
 
 .text-color__grey {
