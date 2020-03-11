@@ -10,16 +10,15 @@ title: Home
     </figure>
     <section>
         <h1 class="black text-size-7">Hi there, my name is Ethan.</h1>
-        <h2 class="text-color__light-grey">I’m a designer, developer, and marketer making things for print and the web.</h2>
+        <h2 class="text-color__light-grey margin-bottom-md">I’m a designer, developer, and marketer making things for print and the web.</h2>
         <a href="/about">More?</a>
     </section>
 </header>
-<hr>
 <section class="margin-bottom-lg">
 <div class="container wide vh grid grid-3 grid-align-center">
 {%- for logo in work.logos -%}
     <figure>
-        <img class="responsive-img" src="{{ logo.url }}" alt="{{ logo.alt }}">
+        <img class="logo-img" src="{{ logo.url }}" alt="{{ logo.alt }}">
     </figure>
 {%- endfor -%}
 </div>

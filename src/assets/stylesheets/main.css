@@ -113,6 +113,7 @@ body {
   font-family: var(--font-serif);
   font-size: var(--default-size);
   line-height: var(--default-line-height);
+  position: relative;
   margin: 0;
   padding: 0;
 }
@@ -326,12 +327,11 @@ figcaption {
 }
 
 hr {
-  width: 100%;
-  max-width: var(--container-desktop);
-  margin: var(--spacing-lg) auto;
-  border: none;
-  height: 2px;
-  background: var(--light-grey);
+  border: .1em solid var(--black);
+  display: block;
+  left: 0;
+  width: 1em;
+  position: static;
 }
 
 mark {
@@ -608,8 +608,16 @@ figure img {
 /* 
 ** Helpers
 */
-.responsive-img {
+
+@media (max-width: 720px) {
+  .logo-img {
+    margin: var(--spacing-lg) auto;
+  }
+}
+
+.responsive-img, .logo-img {
   width: 100%;
+  margin: normal;
 }
 
 .text-center {
