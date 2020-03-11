@@ -1,13 +1,17 @@
-<footer class="site-footer container">
+<footer class="site-footer container grid grid-align-top">
+    <div>
+        <h4 class="text-color__light-grey margin-bottom-md"><span class ="text-color__black bold">Ethan Shutt</span> is a designer, developer, and marketer making things for print and the web.</h4>
+        {% include "copyright.njk" %}
+    </div>
     {% if navigation.primary %}
-    <nav class="nav">
-    <ul class="nav__list">
-        {% for item in navigation.primary %}
-        <li class="nav-item text-preset-2">
-            <a href="{{ item.url }}">{{ item.text }}</a>
-        </li>
-        {% endfor %}
-    </ul>
+    <nav class="nav margin-top-none">
+        <ul class="nav__list">
+            {% for item in navigation.primary %}
+            <li class="nav-item text-preset-2">
+                <a href="{{ item.url }}">{{ item.text }}</a>
+            </li>
+            {% endfor %}
+        </ul>
     </nav>
     {% endif %}
 </footer>
