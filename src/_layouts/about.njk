@@ -1,0 +1,17 @@
+---
+template: about
+---
+<!DOCTYPE html>
+<html lang="en">
+    {% include "head.njk" %}
+    <body id="{{ template }}">
+        {% include "navigation.njk" %}
+        {{ content | safe }}
+        {% include "footer.njk" %}
+        <!-- Main JS -->
+        <script src="{{ 'assets/scripts/main.js' | url }}"></script>
+        <script src="{{ 'assets/scripts/prism.js' | url }}"></script>
+        <!-- Individual Plugins -->
+
+    </body>
+</html>

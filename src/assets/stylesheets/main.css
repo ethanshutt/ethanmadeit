@@ -958,6 +958,23 @@ figure img {
   transition-duration: .7s;
 }
 
+.vh {
+  min-height: auto;
+}
+
+@media (min-width: 800px) {
+  .vh {
+    min-height: 50vh;
+  }
+}
+
+@media (min-width: 1000px) {
+  .vh {
+    min-height: 75vh;
+  }
+}
+  
+
 /* 
 ** Navigation
 */
