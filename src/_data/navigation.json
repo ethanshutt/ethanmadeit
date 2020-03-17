@@ -9,14 +9,22 @@
             "url": "/archive"
         }
     ],
-    "secondary": [
+    "links": [
         {
-            "text": "Home",
-            "url": "/"
+            "text": "Twitter",
+            "url": "https://twitter.com/ethanmadeit"
         },
         {
-            "text": "Posts",
-            "url": "/archive"
+            "text": "Instagram",
+            "url": "https://instagram.com/ethanmadeit"
+        },
+        {
+            "text": "Email",
+            "url": "mailto:ethan@ethanmade.it"
+        },
+        {
+            "text": "GitHub",
+            "url": "https://github.com/ethanshutt"
         }
     ]
 }
