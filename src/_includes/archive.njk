@@ -1,7 +1,0 @@
-{%- for post in collections.archive -%}
-<article class="font-sans margin-bottom-lg">
-  <h3 class="text-size-3 margin-bottom-none"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-  <p class="italic margin-top-none margin-bottom-none">{{ post.data.description }}</p>
-  <time class="text-preset-7 text-color__light-grey" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-</article>
-{%- endfor -%}

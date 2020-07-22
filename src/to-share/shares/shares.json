@@ -1,5 +1,0 @@
-{
-    "author": "Ethan Shutt",
-    "layout": "post.njk",
-    "permalink": "/to-share/{{ page.fileSlug }}/"
-}
