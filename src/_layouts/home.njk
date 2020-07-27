@@ -5,11 +5,12 @@ template: home
 <html lang="en">
     {% include "head.njk" %}
     <body id="{{ template }}">
-        {{ content | safe }}
+        <div class="container">
+            {{ content | safe }}
+        </div>
         <!-- Main JS -->
         <script src="{{ 'assets/scripts/main.js' | url }}"></script>
         <script src="{{ 'assets/scripts/prism.js' | url }}"></script>
         <!-- Individual Plugins -->
-
     </body>
 </html>
