@@ -1,4 +1,5 @@
-@import url("https://use.typekit.net/zni6ien.css");/* 
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* 
 ** Set font size to base of 16px
 */
 html { 
@@ -73,7 +74,7 @@ table {
   --text-size-6: calc(var(--text-size-5) * var(--text-scale));
   --text-size-7: calc(var(--text-size-6) * var(--text-scale));
   --font-sans: Helvetica, sans-serif;
-  --font-serif: serif;
+  --font-serif: 'Zilla Slab', serif;
   --font-monospace: monospace;
   --font-color: var(--black);
 
@@ -95,9 +96,9 @@ table {
   --lighter-grey: #DCE2E5;
 
   /* Colors */
-  --cyan: #409ff8;
-  --magenta: #e25fb6;
-  --yellow: #f8ee91;
+  --primary: #409ff8;
+  --secondary: #e25fb6;
+  --accent: #f8ee91;
 
 
   /* Forms */
@@ -110,7 +111,7 @@ table {
 body {
   background: var(--background);
   color: var(--font-color);
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   font-size: var(--default-size);
   line-height: var(--default-line-height);
   position: relative;
@@ -149,7 +150,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: normal;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -188,6 +189,10 @@ p,
   font-size: var(--text-size-2);
 }
 
+p:not(:first-child) {
+  margin: 0 0 var(--spacing-sm) 0;
+}
+
 /* 
 *** Responsive Typography 
 */
@@ -213,9 +218,9 @@ p,
 }
 
 a {
-  color: var(--cyan);
+  color: var(--font-color);
   text-decoration: underline;
-  text-decoration-color: var(--cyan);
+  text-decoration-color: var(--primary);
   text-decoration-skip-ink: auto;
   text-underline-offset: .2rem;
   text-decoration-thickness: .1rem;
@@ -244,7 +249,7 @@ sup {
 }
 
 blockquote {
-  border-left: 6px solid  var(--cyan);
+  border-left: 6px solid  var(--primary);
   font-size: inherit;
   margin: var(--spacing-lg) 0;
 }
@@ -259,7 +264,7 @@ code, pre {
 }
 
 code {
-  color: var(--cyan);
+  color: var(--primary);
   font-size: var(--text-size-1);
 }
 
@@ -300,7 +305,7 @@ hr {
 }
 
 mark {
-  background: var(--yellow);
+  background: var(--accent);
 }
 
 @media (min-width: 600px) {
@@ -569,7 +574,7 @@ figure img {
 /* 
 ** Helpers
 */
-.responsive-img {
+.responsive-img, img {
   width: 100%;
   margin: normal;
 }
@@ -844,16 +849,16 @@ figure img {
   color: var(--light-grey);
 }
 
-.text-color__cyan {
-  color: var(--cyan);
+.text-color__primary {
+  color: var(--primary);
 }
 
-.text-color__magenta {
-  color: var(--magenta);
+.text-color__secondary {
+  color: var(--secondary);
 }
 
-.text-color__yellow {
-  color: var(--yellow);
+.text-color__accent {
+  color: var(--accent);
 }
 
 .box-shadow {
